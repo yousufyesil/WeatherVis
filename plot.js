@@ -29,5 +29,5 @@ function makePlotly( x, y, standard_deviation ){
             text: 'Plotting CSV data from AJAX call'
         }
     });
-};
+}
 makeplot();
