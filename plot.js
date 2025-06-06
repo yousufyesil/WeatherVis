@@ -1,33 +1,43 @@
 function makeplot() {
-    d3.dsv(";","https://raw.githubusercontent.com/yousufyesil/WeatherVis/refs/heads/main/Data/air_temperature_mean/regional_averages_tm_year.csv", function(data){ processData(data) } );
-
+    d3.dsv(";", "https://raw.githubusercontent.com/yousufyesil/WeatherVis/refs/heads/main/Data/air_temperature_mean/regional_averages_tm_year.csv")
+        .then(processData);
 }
 
-function processData(allRows) {
+function processData(data) {
+    // Hier ist data verfügbar!
+    const regions = Object.keys(data[0]).filter(key => key !== 'Jahr' && key !== '');
+    const filteredData = data.filter(row => parseInt(row.Jahr) > 1991);
 
-    console.log(allRows);
-    var x = [], y = [], standard_deviation = [];
-
-    for (var i=0; i<allRows.length; i++) {
-        row = allRows[i];
-        x.push( row['Jahr'] );
-        y.push( row[''] );
-    }
-    console.log( 'X',x, 'Y',y, 'SD',standard_deviation );
-    makePlotly( x, y, standard_deviation );
-}
-
-function makePlotly( x, y, standard_deviation ){
-    var plotDiv = document.getElementById("plot");
-    var traces = [{
-        x: x,
-        y: y
-    }];
+    const traces = regions.map(region => ({
+        x: filteredData.map(d => d.Jahr),
+        y: filteredData.map(d => parseFloat(d[region])),
+        type: 'scatter',
+        mode: 'lines',
+        name: region
+    }));
 
     Plotly.newPlot('plot', traces, {
-        title: {
-            text: 'Plotting CSV data from AJAX call'
-        }
+        title: 'Temperaturverläufe Deutschland (ab 1992)',
+        xaxis: { title: 'Jahr' },
+
+        yaxis: { title: 'Temperatur (°C)' }
     });
 }
+
 makeplot();
+
+
+
+function north_east(data) {
+    const northern_states = ['Mecklenburg-Vorpommern', 'Schleswig-Holstein', 'Hamburg', 'Brandenburg', 'Berlin', 'Sachsen-Anhalt', 'Bremen', 'Niedersachsen', 'Nordrhein-Westfalen'];
+    const southern_states = ['Sachsen', 'Saarland', 'Rheinland-Pfalz', 'Hessen', 'Thüringen', 'Baden-Württemberg', 'Bayern'];
+
+    const northEastData = data.filter(row => northern_states.includes(row.Region));
+    const southWestData = data.filter(row => southern_states.includes(row.Region));
+
+    return {
+        northEast: northEastData,
+        southWest: southWestData
+    };
+}
+
