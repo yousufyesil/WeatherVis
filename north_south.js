@@ -1,173 +1,148 @@
-// Temperatur-Plot Funktion
+// Gemeinsame Helper-Funktion zum Parsen deutscher Dezimalzahlen
+function parseGermanFloat(value) {
+    if (typeof value === 'string') {
+        return parseFloat(value.replace(',', '.'));
+    }
+    return parseFloat(value);
+}
+
+// Temperatur-Plot
 function makeplot_north_south_temp() {
     d3.dsv(";", "https://raw.githubusercontent.com/yousufyesil/WeatherVis/refs/heads/main/Data/air_temperature_mean/regional_averages_tm_year.csv")
-        .then(processData_temp);
+        .then(processData_temp)
+        .catch(err => console.error("Error loading temperature CSV:", err));
 }
 
 function processData_temp(data) {
-    const selectedRegions = ['Deutschland', 'Süd_mean', 'Nord_mean'];
-    const filteredData = data.filter(row => parseInt(row.Jahr) >= 1991);
+    const regions = ['Deutschland', 'Süd_mean', 'Nord_mean'];
+    const filtered = data.filter(row => parseInt(row.Jahr) >= 1991);
 
-    // Funktion zum korrekten Parsen deutscher Dezimalzahlen
-    function parseGermanFloat(value) {
-        if (typeof value === 'string') {
-            // Komma durch Punkt ersetzen für deutsche Dezimalnotation
-            return parseFloat(value.replace(',', '.'));
-        }
-        return parseFloat(value);
-    }
-
-    // Debug-Ausgabe
-    selectedRegions.forEach(region => {
-        const x = filteredData.map(d => d.Jahr);
-        const y = filteredData.map(d => parseGermanFloat(d[region]));
-
-        console.log(`\nRegion: ${region}`);
-        const zeile = x.map((jahr, i) => `(${jahr}, ${y[i]})`).join('');
-        console.log(zeile);
-    });
-
-    // Traces für Plotly erstellen
-    const traces = selectedRegions.map(region => ({
-        x: filteredData.map(d => d.Jahr),
-        y: filteredData.map(d => parseGermanFloat(d[region])),
+    const traces = regions.map(region => ({
+        x: filtered.map(d => d.Jahr),
+        y: filtered.map(d => parseGermanFloat(d[region])),
         type: 'scatter',
         mode: 'lines+markers',
-        name: region === 'Deutschland' ? 'Deutschland' :
-            region === 'Süd_mean' ? 'Süddeutschland' : 'Norddeutschland'
+        name: region === 'Deutschland'   ? 'Deutschland' :
+            region === 'Süd_mean'       ? 'Süddeutschland' :
+                'Norddeutschland'
     }));
 
-    // Plot erstellen
-    Plotly.newPlot('temperature-plot', traces, {
+    const layout = {
         title: 'Temperaturverläufe Deutschland (ab 1991)',
         xaxis: {
             title: 'Jahr',
             tickmode: 'array',
-            tickvals: filteredData.map(d => d.Jahr).filter((_, i) => i % 2 === 0)
+            tickvals: filtered.map((d, i) => i % 2 === 0 ? d.Jahr : null)
+                .filter(v => v !== null),
+            fixedrange: true
         },
         yaxis: {
-            title: 'Temperatur (°C)'
+            title: 'Temperatur (°C)',
+            fixedrange: true
         },
-        layout: {
-            hovermode: 'x unified'
+        hovermode: 'x unified',
+        margin: { t: 50, l: 60, r: 20, b: 50 },
+        legend: {
+            orientation: "h",
+            y : -0.2,
         }
-    });
+
+    };
+
+    Plotly.newPlot('temperature-plot', traces, layout);
 }
 
-// Sonnenscheindauer-Plot Funktion
+// Sonnenscheindauer-Plot
 function makeplot_north_south_sunshine() {
     d3.dsv(";", "https://raw.githubusercontent.com/yousufyesil/WeatherVis/14806abf41806b882d43eb9b6064e4dbf8c8fe99/Data/sunshine_duration/regional_averages_sd_year.csv")
-        .then(processData_sunshine);
+        .then(processData_sunshine)
+        .catch(err => console.error("Error loading sunshine CSV:", err));
 }
 
 function processData_sunshine(data) {
-    const selectedRegions = ['Deutschland', 'Süd_mean', 'Nord_mean'];
-    const filteredData = data.filter(row => parseInt(row.Jahr) >= 1991);
+    const regions = ['Deutschland', 'Süd_mean', 'Nord_mean'];
+    const filtered = data.filter(row => parseInt(row.Jahr) >= 1991);
 
-    // Funktion zum korrekten Parsen deutscher Dezimalzahlen
-    function parseGermanFloat(value) {
-        if (typeof value === 'string') {
-            // Komma durch Punkt ersetzen für deutsche Dezimalnotation
-            return parseFloat(value.replace(',', '.'));
-        }
-        return parseFloat(value);
-    }
-
-    // Debug-Ausgabe
-    selectedRegions.forEach(region => {
-        const x = filteredData.map(d => d.Jahr);
-        const y = filteredData.map(d => parseGermanFloat(d[region]));
-
-        console.log(`\nSonnenschein Region: ${region}`);
-        const zeile = x.map((jahr, i) => `(${jahr}, ${y[i]})`).join('');
-        console.log(zeile);
-    });
-
-    // Traces für Plotly erstellen
-    const traces = selectedRegions.map(region => ({
-        x: filteredData.map(d => d.Jahr),
-        y: filteredData.map(d => parseGermanFloat(d[region])),
+    const traces = regions.map(region => ({
+        x: filtered.map(d => d.Jahr),
+        y: filtered.map(d => parseGermanFloat(d[region])),
         type: 'scatter',
         mode: 'lines+markers',
-        name: region === 'Deutschland' ? 'Deutschland' :
-            region === 'Süd_mean' ? 'Süddeutschland' : 'Norddeutschland'
+        name: region === 'Deutschland'   ? 'Deutschland' :
+            region === 'Süd_mean'       ? 'Süddeutschland' :
+                'Norddeutschland'
     }));
 
-    // Plot erstellen
-    Plotly.newPlot('sunshine-plot', traces, {
+    const layout = {
         title: 'Sonnenscheindauer Deutschland (ab 1991)',
         xaxis: {
             title: 'Jahr',
             tickmode: 'array',
-            tickvals: filteredData.map(d => d.Jahr).filter((_, i) => i % 2 === 0)
+            tickvals: filtered.map((d, i) => i % 2 === 0 ? d.Jahr : null)
+                .filter(v => v !== null),
+            fixedrange: true
         },
         yaxis: {
-            title: 'Sonnenscheindauer (Stunden)'
+            title: 'Sonnenscheindauer (Stunden)',
+            fixedrange: true
         },
-        layout: {
-            hovermode: 'x unified'
+        hovermode: 'x unified',
+        margin: { t: 50, l: 60, r: 20, b: 50 },
+        legend: {
+            orientation: "h",
+            y : -0.2,
         }
-    });
+    };
+
+    Plotly.newPlot('sunshine-plot', traces, layout);
 }
 
-
-// Schwacher Regenfall-Plot Funktion
-  function makeplot_north_south_rrsfs() {
+// Leichter Regenfall-Plot
+function makeplot_north_south_rrsfs() {
     d3.dsv(";", "https://raw.githubusercontent.com/yousufyesil/WeatherVis/67ca10c57fc8b04c5e6101ba607608d2846783ff/Data/precipGE10mm_days/regional_averages_rrsfs_year.csv")
-        .then(processData_rrsfs);
+        .then(processData_rrsfs)
+        .catch(err => console.error("Error loading rain CSV:", err));
 }
 
 function processData_rrsfs(data) {
-    const selectedRegions = ['Deutschland', 'Süd_mean', 'Nord_mean'];
-    const filteredData = data.filter(row => parseInt(row.Jahr) >= 1991);
+    const regions = ['Deutschland', 'Süd_mean', 'Nord_mean'];
+    const filtered = data.filter(row => parseInt(row.Jahr) >= 1991);
 
-    // Funktion zum korrekten Parsen deutscher Dezimalzahlen
-    function parseGermanFloat(value) {
-        if (typeof value === 'string') {
-            // Komma durch Punkt ersetzen für deutsche Dezimalnotation
-            return parseFloat(value.replace(',', '.'));
-        }
-        return parseFloat(value);
-    }
-
-    // Debug-Ausgabe
-    selectedRegions.forEach(region => {
-        const x = filteredData.map(d => d.Jahr);
-        const y = filteredData.map(d => parseGermanFloat(d[region]));
-
-        console.log(`\nRegenfall Leicht Region: ${region}`);
-        const zeile = x.map((jahr, i) => `(${jahr}, ${y[i]})`).join('');
-        console.log(zeile);
-    });
-
-    // Traces für Plotly erstellen
-    const traces = selectedRegions.map(region => ({
-        x: filteredData.map(d => d.Jahr),
-        y: filteredData.map(d => parseGermanFloat(d[region])),
+    const traces = regions.map(region => ({
+        x: filtered.map(d => d.Jahr),
+        y: filtered.map(d => parseGermanFloat(d[region])),
         type: 'scatter',
         mode: 'lines+markers',
-        name: region === 'Deutschland' ? 'Deutschland' :
-            region === 'Süd_mean' ? 'Süddeutschland' : 'Norddeutschland'
+        name: region === 'Deutschland'   ? 'Deutschland' :
+            region === 'Süd_mean'       ? 'Süddeutschland' :
+                'Norddeutschland'
     }));
 
-    // Plot erstellen
-    Plotly.newPlot('rain_low-plot', traces, {
-        title: 'Refenfall Leicht Deutschland (ab 1991)',
+    const layout = {
+        title: 'Leichte Regenfalltage Deutschland (ab 1991)',
         xaxis: {
             title: 'Jahr',
             tickmode: 'array',
-            tickvals: filteredData.map(d => d.Jahr).filter((_, i) => i % 2 === 0)
+            tickvals: filtered.map((d, i) => i % 2 === 0 ? d.Jahr : null)
+                .filter(v => v !== null),
+            fixedrange: true
         },
         yaxis: {
-            title: 'Regenfall (mm)'
+            title: 'Anzahl Tage',
+            fixedrange: true
         },
-        layout: {
-            hovermode: 'x unified'
+        hovermode: 'x unified',
+        margin: { t: 50, l: 60, r: 20, b: 50 },
+        legend: {
+            orientation: "h",
+            y : -0.2,
         }
-    });
+    };
+
+    Plotly.newPlot('rain_low-plot', traces, layout);
 }
 
 // Funktionsaufrufe
 makeplot_north_south_temp();
 makeplot_north_south_sunshine();
-makeplot_north_south_rrsfs()
+makeplot_north_south_rrsfs();
