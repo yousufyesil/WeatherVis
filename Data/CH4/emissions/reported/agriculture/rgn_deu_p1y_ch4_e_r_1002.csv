@@ -1,0 +1,418 @@
+"OBSERVED_PROPERTY_ID";"OBSERVED_PROPERTY_CODE";"OBSERVED_PROPERTY_NAME";"OBSERVING_FACILITY_CODE";"OBSERVING_FACILITY_NAME";"PHENOMEN_TIME";"REFERENCE_TIME";"UOM";"VALUE";"NUTS_LEVEL";"SECTOR_ID"
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA";"Land Nordrhein-Westfalen";"P1Y/2018-12-31";"2018-12-31";"kt/year";151.3;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB";"Land Rheinland-Pfalz";"P1Y/2018-12-31";"2018-12-31";"kt/year";38.1;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEC";"Saarland";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.7;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED";"Freistaat Sachsen";"P1Y/2018-12-31";"2018-12-31";"kt/year";47.3;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE";"Land Sachsen-Anhalt";"P1Y/2018-12-31";"2018-12-31";"kt/year";46.6;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF";"Land Schleswig-Holstein";"P1Y/2018-12-31";"2018-12-31";"kt/year";114;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG";"Freistaat Thüringen";"P1Y/2018-12-31";"2018-12-31";"kt/year";38.1;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE1";"Land Baden-Württemberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";100.1;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE2";"Freistaat Bayern";"P1Y/2018-12-31";"2018-12-31";"kt/year";308.4;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE3";"Land Berlin";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE4";"Land Brandenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";59.9;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE5";"Freie Hansestadt Bremen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE6";"Freie und Hansestadt Hamburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE7";"Land Hessen";"P1Y/2018-12-31";"2018-12-31";"kt/year";47.6;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE8";"Land Mecklenburg-Vorpommern";"P1Y/2018-12-31";"2018-12-31";"kt/year";55.6;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE9";"Land Niedersachsen";"P1Y/2018-12-31";"2018-12-31";"kt/year";274.8;1;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA1A";"Kreisfreie Stadt Wuppertal";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA1B";"Kreis Kleve";"P1Y/2018-12-31";"2018-12-31";"kt/year";10;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA1C";"Kreis Mettmann";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA1D";"Rhein-Kreis Neuss";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA1E";"Kreis Viersen";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA1F";"Kreis Wesel";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA11";"Kreisfreie Stadt Düsseldorf";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA12";"Kreisfreie Stadt Duisburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA13";"Kreisfreie Stadt Essen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA14";"Kreisfreie Stadt Krefeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA15";"Kreisfreie Stadt Mönchengladbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA16";"Kreisfreie Stadt Mülheim an der Ruhr";"P1Y/2018-12-31";"2018-12-31";"kt/year";0;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA17";"Kreisfreie Stadt Oberhausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA18";"Kreisfreie Stadt Remscheid";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA19";"Kreisfreie Stadt Solingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA2A";"Oberbergischer Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA2B";"Rheinisch-Bergischer Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA2C";"Rhein-Sieg-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA2D";"Städteregion Aachen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA22";"Kreisfreie Stadt Bonn";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA23";"Kreisfreie Stadt Köln";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA24";"Kreisfreie Stadt Leverkusen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA26";"Kreis Düren";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA27";"Rhein-Erft-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA28";"Kreis Euskirchen";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA29";"Kreis Heinsberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA31";"Kreisfreie Stadt Bottrop";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA32";"Kreisfreie Stadt Gelsenkirchen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA33";"Kreisfreie Stadt Münster";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA34";"Kreis Borken";"P1Y/2018-12-31";"2018-12-31";"kt/year";16.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA35";"Kreis Coesfeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";9.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA36";"Kreis Recklinghausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA37";"Kreis Steinfurt";"P1Y/2018-12-31";"2018-12-31";"kt/year";17.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA38";"Kreis Warendorf";"P1Y/2018-12-31";"2018-12-31";"kt/year";10.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA41";"Kreisfreie Stadt Bielefeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA42";"Kreis Gütersloh";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA43";"Kreis Herford";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA44";"Kreis Höxter";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA45";"Kreis Lippe";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA46";"Kreis Minden-Lübbecke";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA47";"Kreis Paderborn";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA5A";"Kreis Siegen-Wittgenstein";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA5B";"Kreis Soest";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA5C";"Kreis Unna";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA51";"Kreisfreie Stadt Bochum";"P1Y/2018-12-31";"2018-12-31";"kt/year";0;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA52";"Kreisfreie Stadt Dortmund";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA53";"Kreisfreie Stadt Hagen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA54";"Kreisfreie Stadt Hamm";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA55";"Kreisfreie Stadt Herne";"P1Y/2018-12-31";"2018-12-31";"kt/year";0;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA56";"Ennepe-Ruhr-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA57";"Hochsauerlandkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA58";"Märkischer Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEA59";"Kreis Olpe";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB1A";"Rhein-Lahn-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB1B";"Westerwaldkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB1C";"Landkreis Cochem-Zell";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB1D";"Rhein-Hunsrück-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB11";"Kreisfreie Stadt Koblenz";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB12";"Landkreis Ahrweiler";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB13";"Landkreis Altenkirchen (Westerwald)";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB14";"Landkreis Bad Kreuznach";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB15";"Landkreis Birkenfeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB17";"Landkreis Mayen-Koblenz";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB18";"Landkreis Neuwied";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB21";"Kreisfreie Stadt Trier";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB22";"Landkreis Bernkastel-Wittlich";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB23";"Eifelkreis Bitburg-Prüm";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB24";"Landkreis Vulkaneifel";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB25";"Landkreis Trier-Saarburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB3A";"Kreisfreie Stadt Zweibrücken";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB3B";"Landkreis Alzey-Worms";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB3C";"Landkreis Bad Dürkheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB3D";"Donnersbergkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB3E";"Landkreis Germersheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB3F";"Landkreis Kaiserslautern";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB3G";"Landkreis Kusel";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB3H";"Landkreis Südliche Weinstraße";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB3I";"Rhein-Pfalz-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB3J";"Landkreis Mainz-Bingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB3K";"Landkreis Südwestpfalz";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB31";"Kreisfreie Stadt Frankenthal (Pfalz)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB32";"Kreisfreie Stadt Kaiserslautern";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB33";"Kreisfreie Stadt Landau in der Pfalz";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB34";"Kreisfreie Stadt Ludwigshafen am Rhein";"P1Y/2018-12-31";"2018-12-31";"kt/year";0;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB35";"Kreisfreie Stadt Mainz";"P1Y/2018-12-31";"2018-12-31";"kt/year";0;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB36";"Kreisfreie Stadt Neustadt an der Weinstraße";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB37";"Kreisfreie Stadt Pirmasens";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB38";"Kreisfreie Stadt Speyer";"P1Y/2018-12-31";"2018-12-31";"kt/year";0;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEB39";"Kreisfreie Stadt Worms";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEC01";"Regionalverband Saarbrücken";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEC02";"Landkreis Merzig-Wadern";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEC03";"Landkreis Neunkirchen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEC04";"Landkreis Saarlouis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEC05";"Saarpfalz-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEC06";"Landkreis St. Wendel";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED2C";"Landkreis Bautzen";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED2D";"Landkreis Görlitz";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED2E";"Landkreis Meißen";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED2F";"Landkreis Sächsische Schweiz-Osterzgebirge";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED21";"Kreisfreie Stadt Dresden";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED41";"Kreisfreie Stadt Chemnitz";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED42";"Erzgebirgskreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED43";"Landkreis Mittelsachsen";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED44";"Vogtlandkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED45";"Landkreis Zwickau";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED51";"Kreisfreie Stadt Leipzig";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED52";"Landkreis Leipzig";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DED53";"Landkreis Nordsachsen";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE0A";"Landkreis Mansfeld-Südharz";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE0B";"Saalekreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE0C";"Salzlandkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE0D";"Landkreis Stendal";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE0E";"Landkreis Wittenberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE01";"Kreisfreie Stadt Dessau-Roßlau";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE02";"Kreisfreie Stadt Halle (Saale)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE03";"Kreisfreie Stadt Magdeburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE04";"Altmarkkreis Salzwedel";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE05";"Landkreis Anhalt-Bitterfeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE06";"Landkreis Jerichower Land";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE07";"Landkreis Börde";"P1Y/2018-12-31";"2018-12-31";"kt/year";6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE08";"Burgenlandkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEE09";"Landkreis Harz";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF0A";"Kreis Plön";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF0B";"Kreis Rendsburg-Eckernförde";"P1Y/2018-12-31";"2018-12-31";"kt/year";17.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF0C";"Kreis Schleswig-Flensburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";19.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF0D";"Kreis Segeberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";8.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF0E";"Kreis Steinburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";10.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF0F";"Kreis Stormarn";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF01";"Kreisfreie Stadt Flensburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF02";"Kreisfreie Stadt Kiel";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF03";"Kreisfreie Stadt Lübeck";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF04";"Kreisfreie Stadt Neumünster";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF05";"Kreis Dithmarschen";"P1Y/2018-12-31";"2018-12-31";"kt/year";13.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF06";"Kreis Herzogtum Lauenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF07";"Kreis Nordfriesland";"P1Y/2018-12-31";"2018-12-31";"kt/year";19.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF08";"Kreis Ostholstein";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEF09";"Kreis Pinneberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0A";"Kyffhäuserkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0B";"Landkreis Schmalkalden-Meiningen";"P1Y/2018-12-31";"2018-12-31";"kt/year";3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0C";"Landkreis Gotha";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0D";"Landkreis Sömmerda";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0E";"Landkreis Hildburghausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0F";"Ilm-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0G";"Landkreis Weimarer Land";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0H";"Landkreis Sonneberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0I";"Landkreis Saalfeld-Rudolstadt";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0J";"Saale-Holzland-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0K";"Saale-Orla-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0L";"Landkreis Greiz";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0M";"Landkreis Altenburger Land";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0N";"Kreisfreie Stadt Eisenach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG0P";"Wartburgkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG01";"Kreisfreie Stadt Erfurt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG02";"Kreisfreie Stadt Gera";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG03";"Kreisfreie Stadt Jena";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG04";"Kreisfreie Stadt Suhl";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG05";"Kreisfreie Stadt Weimar";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG06";"Landkreis Eichsfeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG07";"Landkreis Nordhausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DEG09";"Unstrut-Hainich-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE11A";"Landkreis Schwäbisch Hall";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE11B";"Main-Tauber-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE11C";"Landkreis Heidenheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE11D";"Ostalbkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE111";"Stadtkreis Stuttgart";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE112";"Landkreis Böblingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE113";"Landkreis Esslingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE114";"Landkreis Göppingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE115";"Landkreis Ludwigsburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE116";"Rems-Murr-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE117";"Stadtkreis Heilbronn";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE118";"Landkreis Heilbronn";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE119";"Hohenlohekreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE12A";"Landkreis Calw";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE12B";"Enzkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE12C";"Landkreis Freudenstadt";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE121";"Stadtkreis Baden-Baden";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE122";"Stadtkreis Karlsruhe";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE123";"Landkreis Karlsruhe";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE124";"Landkreis Rastatt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE125";"Stadtkreis Heidelberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE126";"Stadtkreis Mannheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE127";"Neckar-Odenwald-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE128";"Rhein-Neckar-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE129";"Stadtkreis Pforzheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE13A";"Landkreis Waldshut";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE131";"Stadtkreis Freiburg im Breisgau";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE132";"Landkreis Breisgau-Hochschwarzwald";"P1Y/2018-12-31";"2018-12-31";"kt/year";3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE133";"Landkreis Emmendingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE134";"Ortenaukreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE135";"Landkreis Rottweil";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE136";"Schwarzwald-Baar-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE137";"Landkreis Tuttlingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE138";"Landkreis Konstanz";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE139";"Landkreis Lörrach";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE141";"Landkreis Reutlingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE142";"Landkreis Tübingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE143";"Zollernalbkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE144";"Stadtkreis Ulm";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE145";"Alb-Donau-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE146";"Landkreis Biberach";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE147";"Bodenseekreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE148";"Landkreis Ravensburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";9.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE149";"Landkreis Sigmaringen";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21A";"Landkreis Erding";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21B";"Landkreis Freising";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21C";"Landkreis Fürstenfeldbruck";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21D";"Landkreis Garmisch-Partenkirchen";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21E";"Landkreis Landsberg am Lech";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21F";"Landkreis Miesbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21G";"Landkreis Mühldorf a. Inn";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21H";"Landkreis München";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21I";"Landkreis Neuburg-Schrobenhausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21J";"Landkreis Pfaffenhofen a.d. Ilm";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21K";"Landkreis Rosenheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";10;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21L";"Landkreis Starnberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21M";"Landkreis Traunstein";"P1Y/2018-12-31";"2018-12-31";"kt/year";8.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE21N";"Landkreis Weilheim-Schongau";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE211";"Kreisfreie Stadt Ingolstadt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE212";"Kreisfreie Stadt München";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE213";"Kreisfreie Stadt Rosenheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE214";"Landkreis Altötting";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE215";"Landkreis Berchtesgadener Land";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE216";"Landkreis Bad Tölz-Wolfratshausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE217";"Landkreis Dachau";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE218";"Landkreis Ebersberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE219";"Landkreis Eichstätt";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE22A";"Landkreis Rottal-Inn";"P1Y/2018-12-31";"2018-12-31";"kt/year";8.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE22B";"Landkreis Straubing-Bogen";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE22C";"Landkreis Dingolfing-Landau";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE221";"Kreisfreie Stadt Landshut";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE222";"Kreisfreie Stadt Passau";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE223";"Kreisfreie Stadt Straubing";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE224";"Landkreis Deggendorf";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE225";"Landkreis Freyung-Grafenau";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE226";"Landkreis Kelheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE227";"Landkreis Landshut";"P1Y/2018-12-31";"2018-12-31";"kt/year";7.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE228";"Landkreis Passau";"P1Y/2018-12-31";"2018-12-31";"kt/year";8.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE229";"Landkreis Regen";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE23A";"Landkreis Tirschenreuth";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE231";"Kreisfreie Stadt Amberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE232";"Kreisfreie Stadt Regensburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE233";"Kreisfreie Stadt Weiden i.d. OPf.";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE234";"Landkreis Amberg-Sulzbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE235";"Landkreis Cham";"P1Y/2018-12-31";"2018-12-31";"kt/year";7.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE236";"Landkreis Neumarkt i.d. OPf.";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE237";"Landkreis Neustadt a.d. Waldnaab";"P1Y/2018-12-31";"2018-12-31";"kt/year";6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE238";"Landkreis Regensburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE239";"Landkreis Schwandorf";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE24A";"Landkreis Kronach";"P1Y/2018-12-31";"2018-12-31";"kt/year";2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE24B";"Landkreis Kulmbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE24C";"Landkreis Lichtenfels";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE24D";"Landkreis Wunsiedel i. Fichtelgebirge";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE241";"Kreisfreie Stadt Bamberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE242";"Kreisfreie Stadt Bayreuth";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE243";"Kreisfreie Stadt Coburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE244";"Kreisfreie Stadt Hof";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE245";"Landkreis Bamberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE246";"Landkreis Bayreuth";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE247";"Landkreis Coburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE248";"Landkreis Forchheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE249";"Landkreis Hof";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE25A";"Landkreis Neustadt a.d. Aisch-Bad Windsheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE25B";"Landkreis Roth";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE25C";"Landkreis Weißenburg-Gunzenhausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE251";"Kreisfreie Stadt Ansbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE252";"Kreisfreie Stadt Erlangen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE253";"Kreisfreie Stadt Fürth";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE254";"Kreisfreie Stadt Nürnberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE255";"Kreisfreie Stadt Schwabach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE256";"Landkreis Ansbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";10.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE257";"Landkreis Erlangen-Höchstadt";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE258";"Landkreis Fürth";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE259";"Landkreis Nürnberger Land";"P1Y/2018-12-31";"2018-12-31";"kt/year";3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE26A";"Landkreis Main-Spessart";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE26B";"Landkreis Schweinfurt";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE26C";"Landkreis Würzburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE261";"Kreisfreie Stadt Aschaffenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE262";"Kreisfreie Stadt Schweinfurt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE263";"Kreisfreie Stadt Würzburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE264";"Landkreis Aschaffenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE265";"Landkreis Bad Kissingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE266";"Landkreis Rhön-Grabfeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE267";"Landkreis Haßberge";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE268";"Landkreis Kitzingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE269";"Landkreis Miltenberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE27A";"Landkreis Lindau (Bodensee)";"P1Y/2018-12-31";"2018-12-31";"kt/year";2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE27B";"Landkreis Ostallgäu";"P1Y/2018-12-31";"2018-12-31";"kt/year";10.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE27C";"Landkreis Unterallgäu";"P1Y/2018-12-31";"2018-12-31";"kt/year";11.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE27D";"Landkreis Donau-Ries";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE27E";"Landkreis Oberallgäu";"P1Y/2018-12-31";"2018-12-31";"kt/year";8.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE271";"Kreisfreie Stadt Augsburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE272";"Kreisfreie Stadt Kaufbeuren";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE273";"Kreisfreie Stadt Kempten (Allgäu)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE274";"Kreisfreie Stadt Memmingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE275";"Landkreis Aichach-Friedberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE276";"Landkreis Augsburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE277";"Landkreis Dillingen a.d. Donau";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE278";"Landkreis Günzburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE279";"Landkreis Neu-Ulm";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE300";"Kreisfreie Stadt Berlin";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE40A";"Landkreis Oberhavel";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE40B";"Landkreis Oberspreewald-Lausitz";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE40C";"Landkreis Oder-Spree";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE40D";"Landkreis Ostprignitz-Ruppin";"P1Y/2018-12-31";"2018-12-31";"kt/year";6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE40E";"Landkreis Potsdam-Mittelmark";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE40F";"Landkreis Prignitz";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE40G";"Landkreis Spree-Neiße";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE40H";"Landkreis Teltow-Fläming";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE40I";"Landkreis Uckermark";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE401";"Kreisfreie Stadt Brandenburg an der Havel";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE402";"Kreisfreie Stadt Cottbus";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE403";"Kreisfreie Stadt Frankfurt (Oder)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE404";"Kreisfreie Stadt Potsdam";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE405";"Landkreis Barnim";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE406";"Landkreis Dahme-Spreewald";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE407";"Landkreis Elbe-Elster";"P1Y/2018-12-31";"2018-12-31";"kt/year";4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE408";"Landkreis Havelland";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE409";"Landkreis Märkisch-Oderland";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE501";"Kreisfreie Stadt Bremen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE502";"Kreisfreie Stadt Bremerhaven";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE600";"Kreisfreie Stadt Hamburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE71A";"Main-Taunus-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE71B";"Odenwaldkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE71C";"Landkreis Offenbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE71D";"Rheingau-Taunus-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE71E";"Wetteraukreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE711";"Kreisfreie Stadt Darmstadt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE712";"Kreisfreie Stadt Frankfurt am Main";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE713";"Kreisfreie Stadt Offenbach am Main";"P1Y/2018-12-31";"2018-12-31";"kt/year";0;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE714";"Kreisfreie Stadt Wiesbaden";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE715";"Landkreis Bergstraße";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE716";"Landkreis Darmstadt-Dieburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE717";"Landkreis Groß-Gerau";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE718";"Hochtaunuskreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE719";"Main-Kinzig-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE721";"Landkreis Gießen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE722";"Lahn-Dill-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE723";"Landkreis Limburg-Weilburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE724";"Landkreis Marburg-Biedenkopf";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE725";"Vogelsbergkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE731";"Kreisfreie Stadt Kassel";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE732";"Landkreis Fulda";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE733";"Landkreis Hersfeld-Rotenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE734";"Landkreis Kassel";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE735";"Schwalm-Eder-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE736";"Landkreis Waldeck-Frankenberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE737";"Werra-Meißner-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE80J";"Landkreis Mecklenburgische Seenplatte";"P1Y/2018-12-31";"2018-12-31";"kt/year";12.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE80K";"Landkreis Rostock";"P1Y/2018-12-31";"2018-12-31";"kt/year";9.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE80L";"Landkreis Vorpommern-Rügen";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE80M";"Landkreis Nordwestmecklenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE80N";"Landkreis Vorpommern-Greifswald";"P1Y/2018-12-31";"2018-12-31";"kt/year";8.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE80O";"Landkreis Ludwigslust-Parchim";"P1Y/2018-12-31";"2018-12-31";"kt/year";13.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE803";"Kreisfreie Stadt Rostock";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE804";"Kreisfreie Stadt Schwerin";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE91A";"Landkreis Peine";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE91B";"Landkreis Wolfenbüttel";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE91C";"Landkreis Göttingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE911";"Kreisfreie Stadt Braunschweig";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE912";"Kreisfreie Stadt Salzgitter";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE913";"Kreisfreie Stadt Wolfsburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE914";"Landkreis Gifhorn";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE916";"Landkreis Goslar";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE917";"Landkreis Helmstedt";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE918";"Landkreis Northeim";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE922";"Landkreis Diepholz";"P1Y/2018-12-31";"2018-12-31";"kt/year";9.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE923";"Landkreis Hameln-Pyrmont";"P1Y/2018-12-31";"2018-12-31";"kt/year";2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE925";"Landkreis Hildesheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE926";"Landkreis Holzminden";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE927";"Landkreis Nienburg (Weser)";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE928";"Landkreis Schaumburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE929";"Region Hannover";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE93A";"Landkreis Uelzen";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE93B";"Landkreis Verden";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE931";"Landkreis Celle";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE932";"Landkreis Cuxhaven";"P1Y/2018-12-31";"2018-12-31";"kt/year";17.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE933";"Landkreis Harburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE934";"Landkreis Lüchow-Dannenberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE935";"Landkreis Lüneburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE936";"Landkreis Osterholz";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE937";"Landkreis Rotenburg (Wümme)";"P1Y/2018-12-31";"2018-12-31";"kt/year";15.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE938";"Heidekreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";8.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE939";"Landkreis Stade";"P1Y/2018-12-31";"2018-12-31";"kt/year";8.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE94A";"Landkreis Friesland";"P1Y/2018-12-31";"2018-12-31";"kt/year";6.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE94B";"Landkreis Grafschaft Bentheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";11.2;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE94C";"Landkreis Leer";"P1Y/2018-12-31";"2018-12-31";"kt/year";12.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE94D";"Landkreis Oldenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";10;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE94E";"Landkreis Osnabrück";"P1Y/2018-12-31";"2018-12-31";"kt/year";16.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE94F";"Landkreis Vechta";"P1Y/2018-12-31";"2018-12-31";"kt/year";7.1;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE94G";"Landkreis Wesermarsch";"P1Y/2018-12-31";"2018-12-31";"kt/year";10.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE94H";"Landkreis Wittmund";"P1Y/2018-12-31";"2018-12-31";"kt/year";7.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE941";"Kreisfreie Stadt Delmenhorst";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE942";"Kreisfreie Stadt Emden";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE943";"Kreisfreie Stadt Oldenburg (Oldb)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE944";"Kreisfreie Stadt Osnabrück";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE945";"Kreisfreie Stadt Wilhelmshaven";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE946";"Landkreis Ammerland";"P1Y/2018-12-31";"2018-12-31";"kt/year";8.7;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE947";"Landkreis Aurich";"P1Y/2018-12-31";"2018-12-31";"kt/year";11.8;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE948";"Landkreis Cloppenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";16.4;3;1002
+597651811;"RGN_DEU_P1Y_CH4_E_R_1002";"annually reported emissions of methane (CH4) from sector Agriculture";"DE949";"Landkreis Emsland";"P1Y/2018-12-31";"2018-12-31";"kt/year";27.7;3;1002

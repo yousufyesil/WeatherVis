@@ -1,0 +1,418 @@
+"OBSERVED_PROPERTY_ID";"OBSERVED_PROPERTY_CODE";"OBSERVED_PROPERTY_NAME";"OBSERVING_FACILITY_CODE";"OBSERVING_FACILITY_NAME";"PHENOMEN_TIME";"REFERENCE_TIME";"UOM";"VALUE";"NUTS_LEVEL";"SECTOR_ID"
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA";"Land Nordrhein-Westfalen";"P1Y/2018-12-31";"2018-12-31";"kt/year";75;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB";"Land Rheinland-Pfalz";"P1Y/2018-12-31";"2018-12-31";"kt/year";18.5;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEC";"Saarland";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.3;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED";"Freistaat Sachsen";"P1Y/2018-12-31";"2018-12-31";"kt/year";20.7;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE";"Land Sachsen-Anhalt";"P1Y/2018-12-31";"2018-12-31";"kt/year";17.1;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF";"Land Schleswig-Holstein";"P1Y/2018-12-31";"2018-12-31";"kt/year";9.3;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG";"Freistaat Thüringen";"P1Y/2018-12-31";"2018-12-31";"kt/year";12.1;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE1";"Land Baden-Württemberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";40.3;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE2";"Freistaat Bayern";"P1Y/2018-12-31";"2018-12-31";"kt/year";46.4;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE3";"Land Berlin";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.6;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE4";"Land Brandenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";21.1;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE5";"Freie Hansestadt Bremen";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.3;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE6";"Freie und Hansestadt Hamburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.8;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE7";"Land Hessen";"P1Y/2018-12-31";"2018-12-31";"kt/year";22.4;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE8";"Land Mecklenburg-Vorpommern";"P1Y/2018-12-31";"2018-12-31";"kt/year";10.6;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE9";"Land Niedersachsen";"P1Y/2018-12-31";"2018-12-31";"kt/year";38.6;1;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA1A";"Kreisfreie Stadt Wuppertal";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA1B";"Kreis Kleve";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA1C";"Kreis Mettmann";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA1D";"Rhein-Kreis Neuss";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA1E";"Kreis Viersen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA1F";"Kreis Wesel";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA11";"Kreisfreie Stadt Düsseldorf";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA12";"Kreisfreie Stadt Duisburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA13";"Kreisfreie Stadt Essen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA14";"Kreisfreie Stadt Krefeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA15";"Kreisfreie Stadt Mönchengladbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA16";"Kreisfreie Stadt Mülheim an der Ruhr";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA17";"Kreisfreie Stadt Oberhausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA18";"Kreisfreie Stadt Remscheid";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA19";"Kreisfreie Stadt Solingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA2A";"Oberbergischer Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA2B";"Rheinisch-Bergischer Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA2C";"Rhein-Sieg-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA2D";"Städteregion Aachen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA22";"Kreisfreie Stadt Bonn";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA23";"Kreisfreie Stadt Köln";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA24";"Kreisfreie Stadt Leverkusen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA26";"Kreis Düren";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA27";"Rhein-Erft-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA28";"Kreis Euskirchen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA29";"Kreis Heinsberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA31";"Kreisfreie Stadt Bottrop";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA32";"Kreisfreie Stadt Gelsenkirchen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA33";"Kreisfreie Stadt Münster";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA34";"Kreis Borken";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA35";"Kreis Coesfeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA36";"Kreis Recklinghausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";3.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA37";"Kreis Steinfurt";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA38";"Kreis Warendorf";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA41";"Kreisfreie Stadt Bielefeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA42";"Kreis Gütersloh";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA43";"Kreis Herford";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA44";"Kreis Höxter";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA45";"Kreis Lippe";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA46";"Kreis Minden-Lübbecke";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA47";"Kreis Paderborn";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA5A";"Kreis Siegen-Wittgenstein";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA5B";"Kreis Soest";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA5C";"Kreis Unna";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA51";"Kreisfreie Stadt Bochum";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA52";"Kreisfreie Stadt Dortmund";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA53";"Kreisfreie Stadt Hagen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA54";"Kreisfreie Stadt Hamm";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA55";"Kreisfreie Stadt Herne";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA56";"Ennepe-Ruhr-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA57";"Hochsauerlandkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA58";"Märkischer Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEA59";"Kreis Olpe";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB1A";"Rhein-Lahn-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB1B";"Westerwaldkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB1C";"Landkreis Cochem-Zell";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB1D";"Rhein-Hunsrück-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB11";"Kreisfreie Stadt Koblenz";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB12";"Landkreis Ahrweiler";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB13";"Landkreis Altenkirchen (Westerwald)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB14";"Landkreis Bad Kreuznach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB15";"Landkreis Birkenfeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB17";"Landkreis Mayen-Koblenz";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB18";"Landkreis Neuwied";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB21";"Kreisfreie Stadt Trier";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB22";"Landkreis Bernkastel-Wittlich";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB23";"Eifelkreis Bitburg-Prüm";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB24";"Landkreis Vulkaneifel";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB25";"Landkreis Trier-Saarburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB3A";"Kreisfreie Stadt Zweibrücken";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB3B";"Landkreis Alzey-Worms";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB3C";"Landkreis Bad Dürkheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB3D";"Donnersbergkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB3E";"Landkreis Germersheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB3F";"Landkreis Kaiserslautern";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB3G";"Landkreis Kusel";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB3H";"Landkreis Südliche Weinstraße";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB3I";"Rhein-Pfalz-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB3J";"Landkreis Mainz-Bingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB3K";"Landkreis Südwestpfalz";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB31";"Kreisfreie Stadt Frankenthal (Pfalz)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB32";"Kreisfreie Stadt Kaiserslautern";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB33";"Kreisfreie Stadt Landau in der Pfalz";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB34";"Kreisfreie Stadt Ludwigshafen am Rhein";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB35";"Kreisfreie Stadt Mainz";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB36";"Kreisfreie Stadt Neustadt an der Weinstraße";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB37";"Kreisfreie Stadt Pirmasens";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB38";"Kreisfreie Stadt Speyer";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEB39";"Kreisfreie Stadt Worms";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEC01";"Regionalverband Saarbrücken";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEC02";"Landkreis Merzig-Wadern";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEC03";"Landkreis Neunkirchen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEC04";"Landkreis Saarlouis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEC05";"Saarpfalz-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEC06";"Landkreis St. Wendel";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED2C";"Landkreis Bautzen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED2D";"Landkreis Görlitz";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED2E";"Landkreis Meißen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED2F";"Landkreis Sächsische Schweiz-Osterzgebirge";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED21";"Kreisfreie Stadt Dresden";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED41";"Kreisfreie Stadt Chemnitz";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED42";"Erzgebirgskreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED43";"Landkreis Mittelsachsen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED44";"Vogtlandkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED45";"Landkreis Zwickau";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED51";"Kreisfreie Stadt Leipzig";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED52";"Landkreis Leipzig";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DED53";"Landkreis Nordsachsen";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE0A";"Landkreis Mansfeld-Südharz";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE0B";"Saalekreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE0C";"Salzlandkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE0D";"Landkreis Stendal";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE0E";"Landkreis Wittenberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE01";"Kreisfreie Stadt Dessau-Roßlau";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE02";"Kreisfreie Stadt Halle (Saale)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE03";"Kreisfreie Stadt Magdeburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE04";"Altmarkkreis Salzwedel";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE05";"Landkreis Anhalt-Bitterfeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE06";"Landkreis Jerichower Land";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE07";"Landkreis Börde";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE08";"Burgenlandkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEE09";"Landkreis Harz";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF0A";"Kreis Plön";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF0B";"Kreis Rendsburg-Eckernförde";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF0C";"Kreis Schleswig-Flensburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF0D";"Kreis Segeberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF0E";"Kreis Steinburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF0F";"Kreis Stormarn";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF01";"Kreisfreie Stadt Flensburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF02";"Kreisfreie Stadt Kiel";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF03";"Kreisfreie Stadt Lübeck";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF04";"Kreisfreie Stadt Neumünster";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF05";"Kreis Dithmarschen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF06";"Kreis Herzogtum Lauenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF07";"Kreis Nordfriesland";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF08";"Kreis Ostholstein";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEF09";"Kreis Pinneberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0A";"Kyffhäuserkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0B";"Landkreis Schmalkalden-Meiningen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0C";"Landkreis Gotha";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0D";"Landkreis Sömmerda";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0E";"Landkreis Hildburghausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0F";"Ilm-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0G";"Landkreis Weimarer Land";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0H";"Landkreis Sonneberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0I";"Landkreis Saalfeld-Rudolstadt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0J";"Saale-Holzland-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0K";"Saale-Orla-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0L";"Landkreis Greiz";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0M";"Landkreis Altenburger Land";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0N";"Kreisfreie Stadt Eisenach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG0P";"Wartburgkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG01";"Kreisfreie Stadt Erfurt";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG02";"Kreisfreie Stadt Gera";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG03";"Kreisfreie Stadt Jena";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG04";"Kreisfreie Stadt Suhl";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG05";"Kreisfreie Stadt Weimar";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG06";"Landkreis Eichsfeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG07";"Landkreis Nordhausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DEG09";"Unstrut-Hainich-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE11A";"Landkreis Schwäbisch Hall";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE11B";"Main-Tauber-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE11C";"Landkreis Heidenheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE11D";"Ostalbkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE111";"Stadtkreis Stuttgart";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE112";"Landkreis Böblingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE113";"Landkreis Esslingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE114";"Landkreis Göppingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE115";"Landkreis Ludwigsburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE116";"Rems-Murr-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE117";"Stadtkreis Heilbronn";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE118";"Landkreis Heilbronn";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE119";"Hohenlohekreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE12A";"Landkreis Calw";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE12B";"Enzkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE12C";"Landkreis Freudenstadt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE121";"Stadtkreis Baden-Baden";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE122";"Stadtkreis Karlsruhe";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE123";"Landkreis Karlsruhe";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE124";"Landkreis Rastatt";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE125";"Stadtkreis Heidelberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE126";"Stadtkreis Mannheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE127";"Neckar-Odenwald-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE128";"Rhein-Neckar-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE129";"Stadtkreis Pforzheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE13A";"Landkreis Waldshut";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE131";"Stadtkreis Freiburg im Breisgau";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE132";"Landkreis Breisgau-Hochschwarzwald";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE133";"Landkreis Emmendingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE134";"Ortenaukreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE135";"Landkreis Rottweil";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE136";"Schwarzwald-Baar-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE137";"Landkreis Tuttlingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE138";"Landkreis Konstanz";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE139";"Landkreis Lörrach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE141";"Landkreis Reutlingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE142";"Landkreis Tübingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE143";"Zollernalbkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE144";"Stadtkreis Ulm";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE145";"Alb-Donau-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE146";"Landkreis Biberach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE147";"Bodenseekreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE148";"Landkreis Ravensburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE149";"Landkreis Sigmaringen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21A";"Landkreis Erding";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21B";"Landkreis Freising";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21C";"Landkreis Fürstenfeldbruck";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21D";"Landkreis Garmisch-Partenkirchen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21E";"Landkreis Landsberg am Lech";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21F";"Landkreis Miesbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21G";"Landkreis Mühldorf a. Inn";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21H";"Landkreis München";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21I";"Landkreis Neuburg-Schrobenhausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21J";"Landkreis Pfaffenhofen a.d. Ilm";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21K";"Landkreis Rosenheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21L";"Landkreis Starnberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21M";"Landkreis Traunstein";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE21N";"Landkreis Weilheim-Schongau";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE211";"Kreisfreie Stadt Ingolstadt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE212";"Kreisfreie Stadt München";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE213";"Kreisfreie Stadt Rosenheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE214";"Landkreis Altötting";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE215";"Landkreis Berchtesgadener Land";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE216";"Landkreis Bad Tölz-Wolfratshausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE217";"Landkreis Dachau";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE218";"Landkreis Ebersberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE219";"Landkreis Eichstätt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE22A";"Landkreis Rottal-Inn";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE22B";"Landkreis Straubing-Bogen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE22C";"Landkreis Dingolfing-Landau";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE221";"Kreisfreie Stadt Landshut";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE222";"Kreisfreie Stadt Passau";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE223";"Kreisfreie Stadt Straubing";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE224";"Landkreis Deggendorf";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE225";"Landkreis Freyung-Grafenau";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE226";"Landkreis Kelheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE227";"Landkreis Landshut";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE228";"Landkreis Passau";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE229";"Landkreis Regen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE23A";"Landkreis Tirschenreuth";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE231";"Kreisfreie Stadt Amberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE232";"Kreisfreie Stadt Regensburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE233";"Kreisfreie Stadt Weiden i.d. OPf.";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE234";"Landkreis Amberg-Sulzbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE235";"Landkreis Cham";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE236";"Landkreis Neumarkt i.d. OPf.";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE237";"Landkreis Neustadt a.d. Waldnaab";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE238";"Landkreis Regensburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE239";"Landkreis Schwandorf";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE24A";"Landkreis Kronach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE24B";"Landkreis Kulmbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE24C";"Landkreis Lichtenfels";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE24D";"Landkreis Wunsiedel i. Fichtelgebirge";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE241";"Kreisfreie Stadt Bamberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE242";"Kreisfreie Stadt Bayreuth";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE243";"Kreisfreie Stadt Coburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE244";"Kreisfreie Stadt Hof";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE245";"Landkreis Bamberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE246";"Landkreis Bayreuth";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE247";"Landkreis Coburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE248";"Landkreis Forchheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE249";"Landkreis Hof";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE25A";"Landkreis Neustadt a.d. Aisch-Bad Windsheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE25B";"Landkreis Roth";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE25C";"Landkreis Weißenburg-Gunzenhausen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE251";"Kreisfreie Stadt Ansbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE252";"Kreisfreie Stadt Erlangen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE253";"Kreisfreie Stadt Fürth";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE254";"Kreisfreie Stadt Nürnberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE255";"Kreisfreie Stadt Schwabach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE256";"Landkreis Ansbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE257";"Landkreis Erlangen-Höchstadt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE258";"Landkreis Fürth";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE259";"Landkreis Nürnberger Land";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE26A";"Landkreis Main-Spessart";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE26B";"Landkreis Schweinfurt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE26C";"Landkreis Würzburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE261";"Kreisfreie Stadt Aschaffenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE262";"Kreisfreie Stadt Schweinfurt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE263";"Kreisfreie Stadt Würzburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE264";"Landkreis Aschaffenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE265";"Landkreis Bad Kissingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE266";"Landkreis Rhön-Grabfeld";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE267";"Landkreis Haßberge";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE268";"Landkreis Kitzingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE269";"Landkreis Miltenberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE27A";"Landkreis Lindau (Bodensee)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE27B";"Landkreis Ostallgäu";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE27C";"Landkreis Unterallgäu";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE27D";"Landkreis Donau-Ries";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE27E";"Landkreis Oberallgäu";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE271";"Kreisfreie Stadt Augsburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE272";"Kreisfreie Stadt Kaufbeuren";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE273";"Kreisfreie Stadt Kempten (Allgäu)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE274";"Kreisfreie Stadt Memmingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE275";"Landkreis Aichach-Friedberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE276";"Landkreis Augsburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE277";"Landkreis Dillingen a.d. Donau";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE278";"Landkreis Günzburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE279";"Landkreis Neu-Ulm";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE300";"Kreisfreie Stadt Berlin";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE40A";"Landkreis Oberhavel";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE40B";"Landkreis Oberspreewald-Lausitz";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE40C";"Landkreis Oder-Spree";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE40D";"Landkreis Ostprignitz-Ruppin";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE40E";"Landkreis Potsdam-Mittelmark";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE40F";"Landkreis Prignitz";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE40G";"Landkreis Spree-Neiße";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE40H";"Landkreis Teltow-Fläming";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE40I";"Landkreis Uckermark";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE401";"Kreisfreie Stadt Brandenburg an der Havel";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE402";"Kreisfreie Stadt Cottbus";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE403";"Kreisfreie Stadt Frankfurt (Oder)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE404";"Kreisfreie Stadt Potsdam";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE405";"Landkreis Barnim";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE406";"Landkreis Dahme-Spreewald";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE407";"Landkreis Elbe-Elster";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE408";"Landkreis Havelland";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE409";"Landkreis Märkisch-Oderland";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE501";"Kreisfreie Stadt Bremen";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE502";"Kreisfreie Stadt Bremerhaven";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE600";"Kreisfreie Stadt Hamburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";4.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE71A";"Main-Taunus-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE71B";"Odenwaldkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE71C";"Landkreis Offenbach";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE71D";"Rheingau-Taunus-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE71E";"Wetteraukreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE711";"Kreisfreie Stadt Darmstadt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE712";"Kreisfreie Stadt Frankfurt am Main";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE713";"Kreisfreie Stadt Offenbach am Main";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE714";"Kreisfreie Stadt Wiesbaden";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE715";"Landkreis Bergstraße";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE716";"Landkreis Darmstadt-Dieburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE717";"Landkreis Groß-Gerau";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE718";"Hochtaunuskreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE719";"Main-Kinzig-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE721";"Landkreis Gießen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE722";"Lahn-Dill-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE723";"Landkreis Limburg-Weilburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE724";"Landkreis Marburg-Biedenkopf";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE725";"Vogelsbergkreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE731";"Kreisfreie Stadt Kassel";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE732";"Landkreis Fulda";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE733";"Landkreis Hersfeld-Rotenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE734";"Landkreis Kassel";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE735";"Schwalm-Eder-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE736";"Landkreis Waldeck-Frankenberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE737";"Werra-Meißner-Kreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE80J";"Landkreis Mecklenburgische Seenplatte";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE80K";"Landkreis Rostock";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE80L";"Landkreis Vorpommern-Rügen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE80M";"Landkreis Nordwestmecklenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE80N";"Landkreis Vorpommern-Greifswald";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE80O";"Landkreis Ludwigslust-Parchim";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE803";"Kreisfreie Stadt Rostock";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE804";"Kreisfreie Stadt Schwerin";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE91A";"Landkreis Peine";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE91B";"Landkreis Wolfenbüttel";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE91C";"Landkreis Göttingen";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE911";"Kreisfreie Stadt Braunschweig";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE912";"Kreisfreie Stadt Salzgitter";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE913";"Kreisfreie Stadt Wolfsburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE914";"Landkreis Gifhorn";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE916";"Landkreis Goslar";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE917";"Landkreis Helmstedt";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE918";"Landkreis Northeim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE922";"Landkreis Diepholz";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE923";"Landkreis Hameln-Pyrmont";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE925";"Landkreis Hildesheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE926";"Landkreis Holzminden";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE927";"Landkreis Nienburg (Weser)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE928";"Landkreis Schaumburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE929";"Region Hannover";"P1Y/2018-12-31";"2018-12-31";"kt/year";5.9;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE93A";"Landkreis Uelzen";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE93B";"Landkreis Verden";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE931";"Landkreis Celle";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE932";"Landkreis Cuxhaven";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE933";"Landkreis Harburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE934";"Landkreis Lüchow-Dannenberg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE935";"Landkreis Lüneburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE936";"Landkreis Osterholz";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE937";"Landkreis Rotenburg (Wümme)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE938";"Heidekreis";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE939";"Landkreis Stade";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE94A";"Landkreis Friesland";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE94B";"Landkreis Grafschaft Bentheim";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE94C";"Landkreis Leer";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE94D";"Landkreis Oldenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE94E";"Landkreis Osnabrück";"P1Y/2018-12-31";"2018-12-31";"kt/year";1.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE94F";"Landkreis Vechta";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE94G";"Landkreis Wesermarsch";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.7;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE94H";"Landkreis Wittmund";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.2;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE941";"Kreisfreie Stadt Delmenhorst";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.3;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE942";"Kreisfreie Stadt Emden";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE943";"Kreisfreie Stadt Oldenburg (Oldb)";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.5;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE944";"Kreisfreie Stadt Osnabrück";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE945";"Kreisfreie Stadt Wilhelmshaven";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.4;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE946";"Landkreis Ammerland";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.8;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE947";"Landkreis Aurich";"P1Y/2018-12-31";"2018-12-31";"kt/year";0.6;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE948";"Landkreis Cloppenburg";"P1Y/2018-12-31";"2018-12-31";"kt/year";1;3;1003
+1852142793;"RGN_DEU_P1Y_CH4_E_R_1003";"annually reported emissions of methane (CH4) from Waste";"DE949";"Landkreis Emsland";"P1Y/2018-12-31";"2018-12-31";"kt/year";2.6;3;1003
