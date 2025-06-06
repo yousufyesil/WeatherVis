@@ -1,5 +1,5 @@
 function makeplot() {
-    d3.csv("./Data/air_temperature_mean/regional_averages_tm_year.csv", function(data){ processData(data) } );
+    d3.csv("https://raw.githubusercontent.com/yousufyesil/WeatherVis/refs/heads/main/Data/air_temperature_mean/regional_averages_tm_year.csv", function(data){ processData(data) } );
 
 };
 
