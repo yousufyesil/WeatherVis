@@ -28,16 +28,4 @@ makeplot();
 
 
 
-function north_east(data) {
-    const northern_states = ['Mecklenburg-Vorpommern', 'Schleswig-Holstein', 'Hamburg', 'Brandenburg', 'Berlin', 'Sachsen-Anhalt', 'Bremen', 'Niedersachsen', 'Nordrhein-Westfalen'];
-    const southern_states = ['Sachsen', 'Saarland', 'Rheinland-Pfalz', 'Hessen', 'Thüringen', 'Baden-Württemberg', 'Bayern'];
-
-    const northEastData = data.filter(row => northern_states.includes(row.Region));
-    const southWestData = data.filter(row => southern_states.includes(row.Region));
-
-    return {
-        northEast: northEastData,
-        southWest: southWestData
-    };
-}
 
