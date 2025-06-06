@@ -1,5 +1,5 @@
 function makeplot() {
-    d3.csv("https://raw.githubusercontent.com/yousufyesil/WeatherVis/refs/heads/main/Data/air_temperature_mean/regional_averages_tm_year.csv", function(data){ processData(data) } );
+    d3.dsv(";","https://raw.githubusercontent.com/yousufyesil/WeatherVis/refs/heads/main/Data/air_temperature_mean/regional_averages_tm_year.csv", function(data){ processData(data) } );
 
 }
 
@@ -10,8 +10,8 @@ function processData(allRows) {
 
     for (var i=0; i<allRows.length; i++) {
         row = allRows[i];
-        x.push( row['AAPL_x'] );
-        y.push( row['AAPL_y'] );
+        x.push( row['Jahr'] );
+        y.push( row[''] );
     }
     console.log( 'X',x, 'Y',y, 'SD',standard_deviation );
     makePlotly( x, y, standard_deviation );
@@ -24,7 +24,7 @@ function makePlotly( x, y, standard_deviation ){
         y: y
     }];
 
-    Plotly.newPlot('myDiv', traces, {
+    Plotly.newPlot('plot', traces, {
         title: {
             text: 'Plotting CSV data from AJAX call'
         }
