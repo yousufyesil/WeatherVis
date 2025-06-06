@@ -110,6 +110,64 @@ function processData_sunshine(data) {
     });
 }
 
+
+// Schwacher Regenfall-Plot Funktion
+  function makeplot_north_south_rrsfs() {
+    d3.dsv(";", "https://raw.githubusercontent.com/yousufyesil/WeatherVis/67ca10c57fc8b04c5e6101ba607608d2846783ff/Data/precipGE10mm_days/regional_averages_rrsfs_year.csv")
+        .then(processData_rrsfs);
+}
+
+function processData_rrsfs(data) {
+    const selectedRegions = ['Deutschland', 'Süd_mean', 'Nord_mean'];
+    const filteredData = data.filter(row => parseInt(row.Jahr) >= 1991);
+
+    // Funktion zum korrekten Parsen deutscher Dezimalzahlen
+    function parseGermanFloat(value) {
+        if (typeof value === 'string') {
+            // Komma durch Punkt ersetzen für deutsche Dezimalnotation
+            return parseFloat(value.replace(',', '.'));
+        }
+        return parseFloat(value);
+    }
+
+    // Debug-Ausgabe
+    selectedRegions.forEach(region => {
+        const x = filteredData.map(d => d.Jahr);
+        const y = filteredData.map(d => parseGermanFloat(d[region]));
+
+        console.log(`\nRegenfall Leicht Region: ${region}`);
+        const zeile = x.map((jahr, i) => `(${jahr}, ${y[i]})`).join('');
+        console.log(zeile);
+    });
+
+    // Traces für Plotly erstellen
+    const traces = selectedRegions.map(region => ({
+        x: filteredData.map(d => d.Jahr),
+        y: filteredData.map(d => parseGermanFloat(d[region])),
+        type: 'scatter',
+        mode: 'lines+markers',
+        name: region === 'Deutschland' ? 'Deutschland' :
+            region === 'Süd_mean' ? 'Süddeutschland' : 'Norddeutschland'
+    }));
+
+    // Plot erstellen
+    Plotly.newPlot('rain_low-plot', traces, {
+        title: 'Refenfall Leicht Deutschland (ab 1991)',
+        xaxis: {
+            title: 'Jahr',
+            tickmode: 'array',
+            tickvals: filteredData.map(d => d.Jahr).filter((_, i) => i % 2 === 0)
+        },
+        yaxis: {
+            title: 'Regenfall (mm)'
+        },
+        layout: {
+            hovermode: 'x unified'
+        }
+    });
+}
+
 // Funktionsaufrufe
 makeplot_north_south_temp();
 makeplot_north_south_sunshine();
+makeplot_north_south_rrsfs()
