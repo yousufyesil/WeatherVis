@@ -7,7 +7,7 @@
     --primary-yellow: #ffd6a5;
     --primary-purple: #d4a5d9;
 
-    --bg-main: #fafbfc;
+    --bg-main: rgba(12,12,12, 0.9);
     --bg-card: #ffffff;
     --text-primary: #2d3748;
     --text-secondary: #4a5568;
@@ -27,4 +27,8 @@ body {
     color: var(--text-primary);
     line-height: 1.6;
     overflow-x: hidden;
+}
+.main{
+    align-items: center;
+    display: flex;
 }

@@ -3,11 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>WeatherVis</title>
+
   <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script src='https://cdn.plot.ly/plotly-3.0.1.min.js'></script></head>
+  <script src='https://cdn.plot.ly/plotly-3.0.1.min.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+
+</head>
 <link rel="stylesheet" href="style.css" />
 <body>
-  <div id="map"  style="width: 3000px; height: 1000px;"></div>
+<div class="main">
+  <div id="map"  style="width: 5000px; height: 1000px;"></div>
+  <div id="plot_left" style="width: 3000px"; height: 1000px></div>
+</div>
+
+
   <div id="plot" style="width: 1000px; height: 500px;"></div>
   <div class="north-south">
     <div id="temperature-plot" class="temp" style="width: 1000px; height: 500px;"></div>
@@ -21,8 +30,8 @@
 
 </div>
 </body>
-
+<script src="load_data.js"></script>
 <script src="all_states.js"></script>
 <script src="north_south.js"></script>
-<script src="choropleth.js"></script>
+<script src="map.js"></script>
 </html>
