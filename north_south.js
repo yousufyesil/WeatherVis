@@ -130,6 +130,7 @@ function processData_rrsfs(data) {
         yaxis: {
             title: 'Anzahl Tage',
             fixedrange: true
+
         },
         hovermode: 'x unified',
         margin: { t: 50, l: 60, r: 20, b: 50 },

@@ -1,3 +1,10 @@
+function parseGermanFloat(value) {
+    if (typeof value === 'string') {
+        return parseFloat(value.replace(',', '.'));
+    }
+    return parseFloat(value);
+}
+
 function makeplot() {
     d3.dsv(";", "https://raw.githubusercontent.com/yousufyesil/WeatherVis/refs/heads/main/Data/air_temperature_mean/regional_averages_tm_year.csv")
         .then(processData);
@@ -10,7 +17,7 @@ function processData(data) {
 
     const traces = regions.map(region => ({
         x: filteredData.map(d => d.Jahr),
-        y: filteredData.map(d => parseFloat(d[region])),
+        y: filteredData.map(d => parseGermanFloat(d[region])),
         type: 'scatter',
         mode: 'lines',
         name: region
