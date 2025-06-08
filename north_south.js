@@ -29,6 +29,9 @@ function processData_temp(data) {
 
     const layout = {
         title: 'Temperaturverläufe Deutschland (ab 1991)',
+        paper_bgcolor: 'rgb(35,35,35)',
+        plot_bgcolor: 'rgb(35,35,35)',
+        fontcolor: '#fff',
         xaxis: {
             title: 'Jahr',
             tickmode: 'array',
@@ -45,6 +48,10 @@ function processData_temp(data) {
         legend: {
             orientation: "h",
             y : -0.2,
+        },
+        font: {
+            color: "#fffafa",     // Farbe
+
         }
 
     };
@@ -75,6 +82,8 @@ function processData_sunshine(data) {
 
     const layout = {
         title: 'Sonnenscheindauer Deutschland (ab 1991)',
+        paper_bgcolor: 'rgb(35,35,35)',
+        plot_bgcolor: 'rgb(35,35,35)',
         xaxis: {
             title: 'Jahr',
             tickmode: 'array',
@@ -91,6 +100,10 @@ function processData_sunshine(data) {
         legend: {
             orientation: "h",
             y : -0.2,
+        },
+        font: {
+            color: "#fffafa",     // Farbe
+
         }
     };
 

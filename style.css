@@ -32,3 +32,12 @@ body {
     align-items: center;
     display: flex;
 }
+#map4 .mapboxgl-canvas-container.mapboxgl-interactive {
+    background-color: #666666 !important;
+}
+#map4 .mapboxgl-canvas {
+    background-color: #666666 !important;
+}
+.map{
+    margin: 50px auto;
+}
