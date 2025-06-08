@@ -28,9 +28,10 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
-.main{
-    align-items: center;
+.main {
     display: flex;
+    min-height: calc(100vh - 200px);
+    gap: 20px;
 }
 #map4 .mapboxgl-canvas-container.mapboxgl-interactive {
     background-color: #666666 !important;
@@ -38,6 +39,10 @@ body {
 #map4 .mapboxgl-canvas {
     background-color: #666666 !important;
 }
-.map{
-    margin: 50px auto;
+.map {
+    flex: 0 0 50%; /* Genau 50% Breite */
+    max-width: 50%;
+}
+#plot_left {
+    flex: 1; /* Nimmt restlichen Platz */
 }

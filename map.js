@@ -110,7 +110,36 @@ Promise.all([
                 ]
             };
         })
-    }]
+
+    }],
+    updatemenus: [{
+        type: 'buttons',
+        x: 0.1,
+        y: 1.15,
+        buttons: [{
+            label: 'Temperatur',
+            method: 'update',
+            args: [
+                {
+                    z: [zValues], // z-Werte für Temperatur
+                    colorscale: 'Reds',
+                    colorbar: { title: '°C' }
+                },
+                { title: 'Deutschlandkarte - Bundesländer - Temperatur' } // Aktualisiert den Titel
+            ]
+        }, {
+            label: 'Sonnenschein',
+            method: 'update',
+            args: [
+                {
+                    z: sunshineData[10].slice(1).map(v => parseFloat(v.replace(",", "."))), // z-Werte für Sonnenschein
+                    colorscale: 'YlOrBr',
+                    colorbar: { title: 'Stunden' }
+                },
+                { title: 'Deutschlandkarte - Bundesländer - Sonnenschein' } // Aktualisiert den Titel
+            ]
+        }]
+    }] // Korrekt geschlossen: '}' für das Objekt im Array, ']' für das Array selbst
 };
         Plotly.newPlot("map", data, layout, {
             mapboxAccessToken: "pk.eyJ1IjoibG9uZ2xvbmciLCJhIjoiY2p2cTJqOHp4MDJtdzQ0cDd2d3g4bmE0ZCJ9.Nc3MEjTImTuuj3DDoSpmBA",
