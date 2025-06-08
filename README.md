@@ -10,18 +10,18 @@
 
 ## 1. Vorverarbeitung
 
-Die Daten werden direkt vom Deutschen Wetterdienst (DWD) bereitgestellt und enthalten u. a. Messdaten für die Lufttemperatur, Feuchtigkeit und Niederschlag für die meisten Bundesländer sowie den Bundesdurchschnitt. Die Rohdaten liegen als Textdatei vor und wurden nach Entfernen der Beschreibung und Ändern des Dateityps in ein gültiges CSV-Format überführt. Für die weitere Verarbeitung wird das doppelte Spaltenattribut **„year“** entfernt, da diese Spalte keine zusätzlichen Informationen liefert und ein doppelter Spaltenname zu Konflikten führen kann.
+Die Daten werden direkt vom Deutschen Wetterdienst (DWD) bereitgestellt und enthalten u. a. Messdaten für die Lufttemperatur, Feuchtigkeit und Niederschlag für die meisten Bundesländer sowie den Bundesdurchschnitt. Die Rohdaten liegen als Textdatei vor und wurden nach Entfernen der Beschreibung und Ändern des Dateityps in ein gültiges CSV-Format überführt. Für die weitere Verarbeitung wird das doppelte Spaltenattribut **„year“** entfernt, da diese Spalte keine zusätzlichen Informationen liefert und ein doppelter Spaltenname zu Konflikten führen kann.
 
 Da einige Bundesländer in den Rohdaten zusammengefasst sind, werden folgende Spalten neu interpretiert:
 
-- Aus der Spalte **Berlin/Brandenburg** wird die Spalte **Berlin**, wobei die Werte für Brandenburg aus der separaten Brandenburg-Spalte hergenommen werden.  
+- Aus der Spalte **Berlin/Brandenburg** wird die Spalte **Berlin**, wobei die Werte für Brandenburg aus der separaten Brandenburg-Spalte hergenommen werden.
 - Die gleiche Methode wird auf **Niedersachsen/Hamburg/Bremen** angewandt, um die Daten für **Bremen** zu extrahieren.
 
 Da für Hamburg selbst keine Messungen existieren, wird zur Berechnung der Wetterwerte folgende Formel angewendet:
 
-$$
-W_{\mathrm{Hamburg}} \;=\; \frac{W_{\mathrm{Niedersachsen}} \;+\; W_{\mathrm{Schleswig\text{-}Holstein}}}{2}.
-$$
+```
+W_Hamburg = (W_Niedersachsen + W_Schleswig-Holstein) / 2
+```
 
 Hierbei sollte allerdings bedacht werden, dass eine hohe Urbanisierung unter anderem Einflüsse auf die Lufttemperatur haben kann. Diese Faktoren können hier jedoch nicht berücksichtigt werden.
 
@@ -29,19 +29,32 @@ Um die Daten geräteunabhängig zugänglich zu machen, werden sie gemeinsam mit 
 
 ---
 
-## 2. Wetterentwicklung in Deutschland seit 1991
+## 2. Choroplethenkarte für Wetterentwicklungen
+
+Die Choroplethenkarte bietet die Möglichkeit, Unterschiede zwischen Bundesländern visuell durch verschiedene Farbwerte zu visualisieren. In dieser spezifischen Visualisierung besteht die Option, verschiedene Wetterdaten auf einer einzigen Karte darzustellen. Um diese Unterschiede auch visuell hervorzuheben, werden die verschiedenen Wetterdaten mit individuell zugewiesenen Farben repräsentiert. Die Farbzuordnung erfolgt nach folgendem Schema:
+
+- **Lufttemperatur → Rot**
+- **Sonnenstunden → Gelb**
+- **Niederschlag → Blau**
+
+Die gewählten Farben orientieren sich an gängigen visuellen Konventionen:  
+Rot steht für Wärme, Gelb für Sonne bzw. Helligkeit und Blau wird häufig mit Wasser bzw. Niederschlag assoziiert. Dadurch lassen sich die Wetterparameter intuitiv voneinander unterscheiden und visuell klar interpretieren.
+
+---
+
+## 3. Wetterentwicklung in Deutschland seit 1991
 
 *(In diesem Abschnitt wird später beschrieben, wie sich die Temperaturen und Niederschläge in Deutschland insgesamt von 1991 bis 2024 entwickelt haben.)*
 
 ---
 
-## 3. Vergleich der Wetterentwicklung zwischen den Bundesländern seit 1991
+## 4. Vergleich der Wetterentwicklung zwischen den Bundesländern seit 1991
 
 *(Hier wird dargestellt, wie sich die einzelnen Bundesländer hinsichtlich Temperatur und Niederschlag über die Jahre unterscheiden.)*
 
 ---
 
-## 4. Untersuchung des Nord-Süd-Gefälles
+## 5. Untersuchung des Nord-Süd-Gefälles
 
 Zur Untersuchung des Nord-Süd-Gefälles werden die jährlichen Durchschnittstemperaturen separat für nord- und süddeutsche Bundesländer berechnet. Dabei ergibt sich:
 
