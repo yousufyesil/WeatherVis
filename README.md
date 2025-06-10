@@ -20,7 +20,7 @@ Da einige Bundesländer in den Rohdaten zusammengefasst sind, werden folgende Sp
 Da für Hamburg selbst keine Messungen existieren, wird zur Berechnung der Wetterwerte folgende Formel angewendet:
 
 $$
-W_{\mathrm{Hamburg}} \;=\; \frac{W_{\mathrm{Niedersachsen}} \;+\; W_{\mathrm{Schleswig\text{-}Holstein}}}{2}.
+W_{\mathrm{Hamburg}} \=\ \frac{W_{\mathrm{Niedersachsen}} \+\ W_{\mathrm{Schleswig\text{-}Holstein}}}{2}
 $$
 
 Hierbei sollte allerdings bedacht werden, dass eine hohe Urbanisierung unter anderem Einflüsse auf die Lufttemperatur haben kann. Diese Faktoren können hier jedoch nicht berücksichtigt werden.
