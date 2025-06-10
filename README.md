@@ -10,7 +10,7 @@
 
 ## 1. Vorverarbeitung
 
-Die Daten werden direkt vom Deutschen Wetterdienst (DWD) bereitgestellt und enthalten u. a. Messdaten für die Lufttemperatur, Feuchtigkeit und Niederschlag für die meisten Bundesländer sowie den Bundesdurchschnitt. Die Rohdaten liegen als Textdatei vor und wurden nach Entfernen der Beschreibung und Ändern des Dateityps in ein gültiges CSV-Format überführt. Für die weitere Verarbeitung wird das doppelte Spaltenattribut **„year“** entfernt, da diese Spalte keine zusätzlichen Informationen liefert und ein doppelter Spaltenname zu Konflikten führen kann.
+Die Daten werden direkt vom Deutschen Wetterdienst (DWD) bereitgestellt und enthalten u. a. Messdaten für die Lufttemperatur, Feuchtigkeit und Niederschlag für die meisten Bundesländer sowie den Bundesdurchschnitt. Die Rohdaten liegen als Textdatei vor und wurden nach Entfernen der Beschreibung und Ändern des Dateityps in ein gültiges CSV-Format überführt. Für die weitere Verarbeitung wird das doppelte Spaltenattribut **„year"** entfernt, da diese Spalte keine zusätzlichen Informationen liefert und ein doppelter Spaltenname zu Konflikten führen kann.
 
 Da einige Bundesländer in den Rohdaten zusammengefasst sind, werden folgende Spalten neu interpretiert:
 
@@ -72,3 +72,32 @@ So erhält man für jedes Jahr jeweils einen gemittelten Temperaturwert für Nor
 ### Niederschlagsentwicklung seit 1991
 
 ![Niederschlagsentwicklung Nord-Süd](sd_noso.png)
+
+---
+
+## 6. Dokumentation
+
+Im folgenden Abschnitt wird erläutert, wie diese Belegarbeit technisch aufgebaut ist. Detailliertere Informationen sowie die gesamte Codebasis lassen sich über das referenzierte GitHub Projekt einsehen.
+
+Um einen Zugriff auf die Wetterdaten zu ermöglichen, werden die Daten direkt in einen Array umgewandelt und in JavaScript eingebettet. Wir haben uns für diese Lösung entschieden, um eine unabhängige Nutzung der Anwendung ohne Internetverbindung und externe Abhängigkeiten zu ermöglichen. Dies verringert allerdings die Flexibilität und Wartbarkeit der Daten. Eine Alternative wäre, die Wetterdaten lokal anzupassen und als CSV-Datei über ein referenziertes Repository bereitzustellen. Dies würde jedoch eine funktionierende Internetverbindung sowie die Verfügbarkeit des Repositories voraussetzen, da die meisten Browser aus Sicherheitsgründen keinen direkten lokalen Dateizugriff erlauben. Für diesen Schritt haben wir ein Python-Skript verwendet.
+
+### Projektstruktur
+
+```
+WeatherVis/
+├── index.html
+├── style.css
+├── js/
+│   ├── load_data.js
+│   ├── all_states.js
+│   ├── north_south.js
+│   └── map.js
+├── data/
+│   ├── temperature_state.json
+│   ├── sunshine_state.json
+│   └── precipitation_state.json
+├── assets/
+│   ├── images/
+│   └── icons/
+└── README.md
+```
