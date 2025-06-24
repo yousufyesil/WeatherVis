@@ -17,28 +17,46 @@
   <h1>WeatherVis</h1>
 </div>
 <div class="main">
-  <div id="map" class="map"  style="width: 700px; height: 1000px;">
+  <div id="map" class="map"  style="width: 800px; height: 1000px; margin: 50px;">
 
   </div>
+  <div class ="map_text">
+    <h2>
+      Wetter-Entwicklung in Deutschland seit 1991
+    </h2>
+
+    <p>
+      Der Klimawandel ist eines der zentralsteten Themen unserer Zeit und eine der bisher größten Herausforderungen der Menschheit. Jedes Jahr
+      werden neue Rekorde bei den Temperaturen, Niederschlägen und anderen Wetterphänomenen aufgestellt. Bereits ein kleiner Anstieg der globalen Durchschnittstemperatur um
+      1 Grad kann verherende Auswirkungen auf die Natur und auf unser Leben haben. Im vergangenen Jahr 2024 wurden erneut neue Hitzerekorde aufgestellt, welche zu Ernteausfällen, Dürren und
+      Wasserknappheit führten.
+    </p>
+    <p>
+      Bereits heute ist es weltweit durchschnittlich 1,1 Grad wärmer als zu vorindustriellen Zeiten. Diese Veränderungen äußern sich auch in Deutschland,
+      wo die Temperaturen seit 1991 kontinuierlich steigen. Doch nicht nur die Temperaturen steigen, sondern auch die Niederschläge und die Sonnenscheindauer
+      haben sich verändert. <br><br>
+      Diese Visualisierung zeigt die Entwicklung des Wetters in Deutschland seit 1991. Die Daten umfassen Temperatur, Niederschlag und Sonnenschein.
+      Klicken Sie auf die Bundesländer, um detaillierte Informationen zu erhalten.
+    </p>
+    <div id="scatter-main" class="temp" style="width: 1050px; height: 500px;"></div>
+
   <div id="plot_left"></div>
+
 </div>
-
-
-  <div id="plot" style="width: 1000px; height: 500px;"></div>
+</div>
+<!--
   <div class="north-south">
-    <div id="temperature-plot" class="temp" style="width: 1000px; height: 500px;"></div>
     <div id="sunshine-plot" class="sunshine" style="width: 1000px; height: 500px;"></div>
     <div id="rain_low-plot" class="rain" style="width: 1000px; height: 500px;"></div>
   </div>
 
 
   <div class="paper", id="paper">
-
+-->
 
 </div>
 </body>
-<script src="load_data.js"></script>
-<script src="all_states.js"></script>
-<script src="north_south.js"></script>
-<script src="map.js"></script>
+<script src="JS/data.js"></script>
+<script src="JS/scatter.js"></script>
+<script src="JS/map.js"></script>
 </html>

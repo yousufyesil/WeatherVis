@@ -90,7 +90,7 @@ WeatherVis/
 ├── js/
 │   ├── load_data.js
 │   ├── all_states.js
-│   ├── north_south.js
+│   ├── scatter.js
 │   └── map.js
 ├── data/
 │   ├── temperature_state.json
