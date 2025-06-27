@@ -135,4 +135,4 @@ function initializeAllPlots() {
 }
 
 // Ausführung
-initializeAllPlots();
+//initializeAllPlots();

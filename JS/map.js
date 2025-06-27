@@ -24,28 +24,99 @@ const CONFIG = {
         "DE-ST", "DE-SN", "DE-SH", "DE-TH"
     ],
 
-    // Datenquellen
+    // Datenquellen (erweitert für Scatter-Plots)
     dataSources: {
         temperature: {
             data: TEMP_DATA,
             title: "Temperatur in Deutschland",
             colorscale: "Thermal",
             unit: "Temperatur (°C)",
-            dtick: 0.5
+            dtick: 0.5,
+            scatterConfig: {
+                yAxisTitle: 'Temperatur (°C)',
+                regions: ['Deutschland', 'Süd_mean', 'Nord_mean'],
+                getX: d => d[0], // Jahr
+                getY: (d, region) => {
+                    const indices = {
+                        'Deutschland': 15,
+                        'Süd_mean': 16,
+                        'Nord_mean': 17
+                    };
+                    return d[indices[region]];
+                }
+            }
         },
         rain: {
             data: RAIN_10MM,
             title: "Niederschlag in Deutschland",
             colorscale: "Blues",
             unit: "Niederschlag (mm/10)",
-            dtick: 3
+            dtick: 3,
+            scatterConfig: {
+                yAxisTitle: 'Anzahl Tage',
+                regions: ['Deutschland', 'Süd_mean', 'Nord_mean'],
+                getX: d => d[0], // Jahr ist der erste Wert im Array
+                getY: (d, region) => {
+                    // Debug-Ausgabe nur beim ersten Aufruf
+                    if (typeof window.rainDebugLogged === 'undefined') {
+                        console.log('Rain data sample:', d);
+                        console.log('Array length:', d.length);
+                        window.rainDebugLogged = true;
+                    }
+
+                    // Für rain data: Array-Indizes verwenden wie bei temperature
+                    const indices = {
+                        'Deutschland': 17,  // Spalte 18
+                        'Süd_mean': 19,     // Spalte 20
+                        'Nord_mean': 18     // Spalte 19
+                    };
+                    
+                    const value = d[indices[region]];
+                    
+                    if (value !== undefined && value !== null && !isNaN(value)) {
+                        return parseFloat(value);
+                    }
+
+                    console.warn(`Kein Wert für ${region} in rain data gefunden. Index: ${indices[region]}, Wert: ${value}`);
+                    return null;
+                }
+            }
         },
         sunshine: {
             data: SUNSHINE,
             title: "Sonnenschein in Deutschland",
             colorscale: "YlOrBr",
             unit: "Sonnenstunden",
-            dtick: 100
+            dtick: 100,
+            scatterConfig: {
+                yAxisTitle: 'Sonnenscheindauer (Stunden)',
+                regions: ['Deutschland', 'Süd_mean', 'Nord_mean'],
+                getX: d => d[0], // Jahr ist der erste Wert im Array
+                getY: (d, region) => {
+                    // Debug-Ausgabe nur beim ersten Aufruf
+                    if (typeof window.sunshineDebugLogged === 'undefined') {
+                        console.log('Sunshine data sample:', d);
+                        console.log('Array length:', d.length);
+                        window.sunshineDebugLogged = true;
+                    }
+
+                    // Für sunshine data: Array-Indizes verwenden wie bei temperature
+                    const indices = {
+                        'Deutschland': 17,  // Spalte 18
+                        'Süd_mean': 19,     // Spalte 20  
+                        'Nord_mean': 18     // Spalte 19
+                    };
+                    
+                    const value = d[indices[region]];
+                    
+                    if (value !== undefined && value !== null && !isNaN(value)) {
+                        return parseFloat(value);
+                    }
+
+                    console.warn(`Kein Wert für ${region} in sunshine data gefunden. Index: ${indices[region]}, Wert: ${value}`);
+                    return null;
+                }
+            }
         }
     },
 
@@ -67,6 +138,16 @@ const state = {
 };
 
 // ===== HILFSFUNKTIONEN =====
+
+// Helper-Funktion zum Parsen deutscher Dezimalzahlen
+function parseGermanFloat(value) {
+    if (value === null || value === undefined || value === '') {
+        return null;
+    }
+    return typeof value === 'string'
+        ? parseFloat(value.replace(',', '.'))
+        : parseFloat(value);
+}
 
 // Berechnet Min/Max-Werte für einen Datensatz
 function calculateMinMax(data) {
@@ -106,7 +187,173 @@ function initializeDataRanges() {
     });
 }
 
-// ===== UI-ERSTELLUNG =====
+// ===== SCATTER-PLOT-FUNKTIONEN =====
+
+// Gemeinsame Layout-Konfiguration für Scatter-Plots
+function createScatterLayout(title, yAxisTitle) {
+    return {
+        title: title,
+        paper_bgcolor: 'rgba(18, 18, 18, 0.9)',
+        plot_bgcolor: 'rgba(18, 18, 18, 0.9)',
+        xaxis: {
+            title: 'Jahr',
+            fixedrange: true,
+            color: CONFIG.colors.font
+        },
+        yaxis: {
+            title: yAxisTitle,
+            fixedrange: true,
+            color: CONFIG.colors.font
+        },
+        hovermode: 'x unified',
+        margin: { t: 50, l: 60, r: 20, b: 50 },
+        legend: {
+            orientation: 'h',
+            y: -0.2,
+            font: { color: CONFIG.colors.font }
+        },
+        font: {
+            color: CONFIG.colors.font
+        }
+    };
+}
+
+// Erstellt Traces für Scatter-Plots
+function createScatterTraces(filteredData, scatterConfig, currentYear = null) {
+    // Debug: Datenstruktur untersuchen
+    if (filteredData.length > 0) {
+        console.log(`Erstelle Scatter-Traces für ${state.currentSource}`);
+        console.log('Erste Datenzeile:', filteredData[0]);
+        console.log('Anzahl Datenzeilen:', filteredData.length);
+    }
+
+    const regionNames = {
+        'Deutschland': 'Deutschland',
+        'Süd_mean': 'Süddeutschland',
+        'Nord_mean': 'Norddeutschland'
+    };
+
+    const traces = scatterConfig.regions.map(region => {
+        const xData = filteredData.map(d => scatterConfig.getX(d));
+        const yData = filteredData.map(d => scatterConfig.getY(d, region));
+
+        // Filtere null-Werte heraus
+        const validData = xData.map((x, i) => ({ x, y: yData[i] }))
+            .filter(point => point.y !== null && point.y !== undefined && !isNaN(point.y));
+
+        if (validData.length === 0) {
+            console.error(`Keine gültigen Daten für ${region} gefunden!`);
+        } else {
+            console.log(`${region}: ${validData.length} gültige Datenpunkte gefunden`);
+        }
+
+        return {
+            x: validData.map(d => d.x),
+            y: validData.map(d => d.y),
+            type: 'scatter',
+            mode: 'lines+markers',
+            name: regionNames[region] || region,
+            line: { width: 2 },
+            marker: { size: 4 }
+        };
+    });
+
+    // Füge eine vertikale Linie für das aktuelle Jahr hinzu, falls angegeben
+    if (currentYear !== null) {
+        const yRange = getYRangeForData(filteredData, scatterConfig);
+        if (yRange.min !== Infinity && yRange.max !== -Infinity) {
+            traces.push({
+                x: [currentYear, currentYear],
+                y: [yRange.min, yRange.max],
+                type: 'scatter',
+                mode: 'lines',
+                name: `Aktuelles Jahr: ${currentYear}`,
+                line: {
+                    color: 'red',
+                    width: 2,
+                    dash: 'dash'
+                },
+                showlegend: true
+            });
+        }
+    }
+
+    return traces;
+}
+
+// Hilfsfunktion um Y-Bereich für Daten zu berechnen
+function getYRangeForData(filteredData, scatterConfig) {
+    let min = Infinity;
+    let max = -Infinity;
+
+    filteredData.forEach(d => {
+        scatterConfig.regions.forEach(region => {
+            const value = scatterConfig.getY(d, region);
+            if (value !== undefined && value !== null && !isNaN(value)) {
+                min = Math.min(min, value);
+                max = Math.max(max, value);
+            }
+        });
+    });
+
+    // Etwas Puffer hinzufügen
+    const range = max - min;
+    return {
+        min: min - range * 0.1,
+        max: max + range * 0.1
+    };
+}
+
+// Filtert Daten ab 1991 für Scatter-Plots
+function filterDataFrom1991(data, isTemperatureData = false) {
+    // Alle Datentypen verwenden jetzt das Array-Format
+    return data.filter(row => row[0] >= 1991);
+}
+
+// Erstellt oder aktualisiert Scatter-Plot für aktuelle Datenquelle
+function updateScatterPlot() {
+    const source = CONFIG.dataSources[state.currentSource];
+    const scatterConfig = source.scatterConfig;
+
+    if (!scatterConfig) {
+        console.warn(`Keine Scatter-Konfiguration für ${state.currentSource} gefunden`);
+        return;
+    }
+
+    console.log(`Aktualisiere Scatter-Plot für ${state.currentSource}`);
+
+    const isTemperatureData = state.currentSource === 'temperature';
+    const filteredData = filterDataFrom1991(source.data, isTemperatureData);
+
+    console.log(`Gefilterte Daten (ab 1991): ${filteredData.length} Einträge`);
+
+    // Aktuelles Jahr aus State ermitteln
+    const currentYear = state.years[state.currentYearIndex];
+
+    const traces = createScatterTraces(filteredData, scatterConfig, currentYear);
+    const layout = createScatterLayout(
+        `${source.title} - Zeitverlauf (ab 1991)`,
+        scatterConfig.yAxisTitle
+    );
+
+    // Jahr-Ticks anpassen (nur jedes zweite Jahr)
+    layout.xaxis.tickmode = 'array';
+    layout.xaxis.tickvals = filteredData
+        .map((d, i) => i % 2 === 0 ? scatterConfig.getX(d) : null)
+        .filter(v => v !== null);
+
+    // Prüfe ob Plot bereits existiert
+    const scatterElement = document.getElementById('scatter-plot');
+    if (scatterElement && scatterElement.data) {
+        Plotly.react('scatter-plot', traces, layout);
+    } else {
+        Plotly.newPlot('scatter-plot', traces, layout, {
+            displayModeBar: false
+        });
+    }
+}
+
+// ===== KARTEN-FUNKTIONEN =====
 
 // Erstellt die Colorbar-Konfiguration
 function createColorbar(source) {
@@ -185,9 +432,7 @@ function createLayout(source, year) {
             steps: state.years.map(year => ({
                 label: year.toString(),
                 method: 'skip',
-                args: [
-
-                ]
+                args: []
             }))
         }],
 
@@ -207,8 +452,6 @@ function createLayout(source, year) {
     };
 }
 
-// ===== KARTEN-FUNKTIONEN =====
-
 // Aktualisiert die Karte mit neuen Daten
 function updateMap() {
     const source = CONFIG.dataSources[state.currentSource];
@@ -227,6 +470,12 @@ function updateMap() {
             'title.text': `<b>${source.title} - Jahr: ${year}</b>`
         }
     );
+}
+
+// Aktualisiert sowohl Karte als auch Scatter-Plot
+function updateBothVisualizations() {
+    updateMap();
+    updateScatterPlot();
 }
 
 // Deaktiviert alle Karten-Interaktionen
@@ -253,7 +502,7 @@ function setupEventHandlers() {
     // Slider-Events
     mapElement.on('plotly_sliderchange', (eventData) => {
         state.currentYearIndex = eventData.slider.active;
-        updateMap();
+        updateBothVisualizations();
     });
 
     // Button-Events
@@ -268,16 +517,22 @@ function setupEventHandlers() {
 
         if (sourceMapping[buttonLabel]) {
             state.currentSource = sourceMapping[buttonLabel];
-            updateMap();
+            updateBothVisualizations();
         }
     });
 }
 
 // ===== INITIALISIERUNG =====
 
-// Hauptfunktion zum Initialisieren der Karte
-async function initializeMap() {
+// Hauptfunktion zum Initialisieren der Anwendung
+async function initializeApp() {
     try {
+        // Debug: Datenstrukturen überprüfen
+        console.log('=== Datenstruktur-Check ===');
+        console.log('Temperature data sample:', TEMP_DATA[0]);
+        console.log('Rain data sample:', RAIN_10MM[0]);
+        console.log('Sunshine data sample:', SUNSHINE[0]);
+
         // Datenbereichere vorberechnen
         initializeDataRanges();
 
@@ -306,10 +561,15 @@ async function initializeMap() {
         // Interaktionen deaktivieren
         disableMapInteractions();
 
+        // Scatter-Plot initialisieren
+        updateScatterPlot();
+
+        console.log("Anwendung erfolgreich initialisiert!");
+
     } catch (error) {
-        console.error("Fehler beim Laden der Karte:", error);
+        console.error("Fehler beim Laden der Anwendung:", error);
     }
 }
 
 // Starte die Anwendung
-initializeMap();
+initializeApp();
