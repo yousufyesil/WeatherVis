@@ -1,5 +1,3 @@
-// ===== KONFIGURATION =====
-
 const CONFIG = {
     // Mapbox-Einstellungen
     mapboxToken: "pk.eyJ1IjoibG9uZ2xvbmciLCJhIjoiY2p2cTJqOHp4MDJtdzQ0cDd2d3g4bmE0ZCJ9.Nc3MEjTImTuuj3DDoSpmBA",
@@ -24,12 +22,13 @@ const CONFIG = {
         "DE-ST", "DE-SN", "DE-SH", "DE-TH"
     ],
 
+
     // Datenquellen (erweitert für Scatter-Plots)
     dataSources: {
         temperature: {
             data: TEMP_DATA,
             title: "Temperatur in Deutschland",
-            colorscale: "Thermal",
+            colorscale: "Reds",  // Gelb → Orange → Rot
             unit: "Temperatur (°C)",
             dtick: 0.5,
             scatterConfig: {
@@ -38,9 +37,9 @@ const CONFIG = {
                 getX: d => d[0], // Jahr
                 getY: (d, region) => {
                     const indices = {
-                        'Deutschland': 15,
-                        'Süd_mean': 16,
-                        'Nord_mean': 17
+                        'Deutschland': 17,
+                        'Süd_mean': 18,
+                        'Nord_mean': 19
                     };
                     return d[indices[region]];
                 }
@@ -51,6 +50,7 @@ const CONFIG = {
             title: "Niederschlag in Deutschland",
             colorscale: "Blues",
             unit: "Niederschlag (mm/10)",
+            reverseScale: true,  // <-- HINZUFÜGEN
             dtick: 3,
             scatterConfig: {
                 yAxisTitle: 'Anzahl Tage',
@@ -67,12 +67,12 @@ const CONFIG = {
                     // Für rain data: Array-Indizes verwenden wie bei temperature
                     const indices = {
                         'Deutschland': 17,  // Spalte 18
-                        'Süd_mean': 19,     // Spalte 20
-                        'Nord_mean': 18     // Spalte 19
+                        'Süd_mean': 18,     // Spalte 20
+                        'Nord_mean': 19     // Spalte 19
                     };
-                    
+
                     const value = d[indices[region]];
-                    
+
                     if (value !== undefined && value !== null && !isNaN(value)) {
                         return parseFloat(value);
                     }
@@ -85,8 +85,9 @@ const CONFIG = {
         sunshine: {
             data: SUNSHINE,
             title: "Sonnenschein in Deutschland",
-            colorscale: "YlOrBr",
+            colorscale: "YlOrRd",  // Gelb → Orange → Braun
             unit: "Sonnenstunden",
+            reverseScale: true,
             dtick: 100,
             scatterConfig: {
                 yAxisTitle: 'Sonnenscheindauer (Stunden)',
@@ -103,12 +104,12 @@ const CONFIG = {
                     // Für sunshine data: Array-Indizes verwenden wie bei temperature
                     const indices = {
                         'Deutschland': 17,  // Spalte 18
-                        'Süd_mean': 19,     // Spalte 20  
+                        'Süd_mean': 19,     // Spalte 20
                         'Nord_mean': 18     // Spalte 19
                     };
-                    
+
                     const value = d[indices[region]];
-                    
+
                     if (value !== undefined && value !== null && !isNaN(value)) {
                         return parseFloat(value);
                     }
@@ -358,20 +359,35 @@ function updateScatterPlot() {
 
 // Erstellt die Colorbar-Konfiguration
 function createColorbar(source) {
+    // Dynamische Anpassung basierend auf der Datenquelle
+    let xPosition = 0.95;
+    let thickness = 20;
+    let tickFontSize = 12;
+
+    // Spezielle Anpassungen für rain-Daten
+    if (source === CONFIG.dataSources.rain) {
+        xPosition = 0.95;     // Weiter links positionieren
+        thickness = 20;       // Schmaler machen
+        tickFontSize = 12;    // Kleinere Schrift
+    }
+
     return {
         title: {
             text: source.unit,
-            font: { color: CONFIG.colors.font }
+            font: { color: CONFIG.colors.font, size: 12 }
         },
-        thickness: 20,
+        thickness: thickness,
         len: 0.7,
-        x: 0.95,
+        x: xPosition,
         xanchor: 'left',
         titleside: 'right',
         tickmode: 'linear',
         tick0: Math.floor(source.min),
         dtick: source.dtick,
-        tickfont: { color: CONFIG.colors.font },
+        tickfont: {
+            color: CONFIG.colors.font,
+            size: tickFontSize
+        },
         tickcolor: CONFIG.colors.font,
         outlinecolor: CONFIG.colors.outline,
         outlinewidth: 1
@@ -390,6 +406,7 @@ function createMapData(geoData, source, yearIndex) {
         zmin: source.min,
         zmax: source.max,
         colorscale: source.colorscale,
+        reversescale: source.reverseScale || false,  // <-- HIER HINZUFÜGEN
         marker: {
             line: {
                 width: 0.5,
@@ -403,13 +420,19 @@ function createMapData(geoData, source, yearIndex) {
 
 // Erstellt das Layout für die Karte
 function createLayout(source, year) {
+    // Dynamische Margins basierend auf Datenquelle
+    let rightMargin = 10;
+    if (source === CONFIG.dataSources.rain) {
+        rightMargin = 40;  // Mehr Platz rechts für die rain-Colorbar
+    }
+
     return {
         mapbox: {
             style: CONFIG.mapStyle,
             center: CONFIG.mapCenter,
             zoom: CONFIG.mapZoom
         },
-        margin: { t: 50, b: 80, l: 10, r: 10 },
+        margin: { t: 50, b: 80, l: 10, r: rightMargin },
         title: {
             text: `<b>${source.title} - Jahr: ${year}</b>`,
             font: { color: CONFIG.colors.font, size: 24 }
@@ -459,17 +482,27 @@ function updateMap() {
     const yearData = getYearData(source.data, state.currentYearIndex);
     const year = state.years[state.currentYearIndex];
 
+    // Dynamische Margin-Berechnung für Update
+    let rightMargin = 10;
+    if (source === CONFIG.dataSources.rain) {
+        rightMargin = 40;
+    }
+
     Plotly.update('map',
         {
             z: [yearData],
             zmin: source.min,
             zmax: source.max,
             colorscale: source.colorscale,
-            colorbar: createColorbar(source)
+            reversescale: source.reverseScale || false,  // <-- AUCH HIER HINZUFÜGEN
+            autocolorscale: false,
+            'colorbar': createColorbar(source)
         },
         {
-            'title.text': `<b>${source.title} - Jahr: ${year}</b>`
-        }
+            'title.text': `<b>${source.title} - Jahr: ${year}</b>`,
+            'margin.r': rightMargin  // Margin auch beim Update anpassen
+        },
+        [0]
     );
 }
 
