@@ -128,7 +128,8 @@ const CONFIG = {
         outline: '#444'
     }
 };
-
+//
+//TODO : Deutschland Daten von SW
 // ===== GLOBALER ZUSTAND =====
 
 const state = {
