@@ -21,7 +21,6 @@ const CONFIG = {
         "DE-ST", "DE-SN", "DE-SH", "DE-TH"
     ],
 
-
     dataSources: {
         temperature: {
             data: TEMP_DATA,
@@ -205,20 +204,18 @@ function updateBoth() {
     updateScatterPlot();
 }
 
-// Asynchrone Funktion, da die Daten von externen Quellen geladen werden
-async function initializeApp() {
+// Synchrone Initialisierungsfunktion
+function initializeApp() {
     initializeDataRanges();
 
-    // Laden der GeoJSON-Daten
-    const geoData = await d3.json("https://raw.githubusercontent.com/isellsoap/deutschlandGeoJSON/refs/heads/main/2_bundeslaender/2_hoch.geo.json");
+    // Verwende die lokale geojson Konstante
+    const geoData = geojson;  // Nutze deine lokale geojson Variable
     const initSrc = CONFIG.dataSources.temperature;
 
     const yearData = [];
     for (let i = 1; i <= 16; i++) yearData.push(initSrc.data[0][i]);
 
-
-
-    await Plotly.newPlot("map", [{
+    Plotly.newPlot("map", [{
         type: "choroplethmapbox",
         geojson: geoData,
         locations: CONFIG.bundeslaenderCodes,
