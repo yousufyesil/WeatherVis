@@ -91,7 +91,7 @@ WeatherVis/
 │   ├── load_data.js
 │   ├── all_states.js
 │   ├── scatter.js
-│   └── map.js
+│   └── plot.js
 ├── data/
 │   ├── temperature_state.json
 │   ├── sunshine_state.json
