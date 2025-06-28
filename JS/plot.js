@@ -209,7 +209,7 @@ function initializeApp() {
     initializeDataRanges();
 
     // Verwende die lokale geojson Konstante
-    const geoData = geojson;  // Nutze deine lokale geojson Variable
+    const geoData = GEO_JSON;  // Nutze deine lokale geojson Variable
     const initSrc = CONFIG.dataSources.temperature;
 
     const yearData = [];
