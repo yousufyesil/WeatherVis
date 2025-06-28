@@ -1,3 +1,5 @@
+//Konfiguration und Daten für die interaktive Karte und Diagramme
+
 const CONFIG = {
     mapboxToken: "pk.eyJ1IjoibG9uZ2xvbmciLCJhIjoiY2p2cTJqOHp4MDJtdzQ0cDd2d3g4bmE0ZCJ9.Nc3MEjTImTuuj3DDoSpmBA",
     mapCenter: { lon: 10.45, lat: 51.1657 },
@@ -11,11 +13,15 @@ const CONFIG = {
             paint: { "background-color": "rgba(18, 18, 18, 0.9)" }
         }]
     },
+
+    // Bundesländer Codes für die GeoJSON-Daten
     bundeslaenderCodes: [
         "DE-BW", "DE-BY", "DE-BE", "DE-BB", "DE-HB", "DE-HH",
         "DE-HE", "DE-MV", "DE-NI", "DE-NW", "DE-RP", "DE-SL",
         "DE-ST", "DE-SN", "DE-SH", "DE-TH"
     ],
+
+
     dataSources: {
         temperature: {
             data: TEMP_DATA,
@@ -199,14 +205,18 @@ function updateBoth() {
     updateScatterPlot();
 }
 
+// Asynchrone Funktion, da die Daten von externen Quellen geladen werden
 async function initializeApp() {
     initializeDataRanges();
 
+    // Laden der GeoJSON-Daten
     const geoData = await d3.json("https://raw.githubusercontent.com/isellsoap/deutschlandGeoJSON/refs/heads/main/2_bundeslaender/2_hoch.geo.json");
     const initSrc = CONFIG.dataSources.temperature;
 
     const yearData = [];
     for (let i = 1; i <= 16; i++) yearData.push(initSrc.data[0][i]);
+
+
 
     await Plotly.newPlot("map", [{
         type: "choroplethmapbox",
@@ -286,4 +296,5 @@ async function initializeApp() {
     updateScatterPlot();
 }
 
+// Initialisierung der Anwendung
 initializeApp();
