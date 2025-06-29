@@ -1,103 +1,95 @@
-# Wetterdaten Analyse
+# Analyse und Visualisierung der Wetterentwicklung in der Bundesrepublik Deutschland seit 1991
 
-**Autor:** Muhammad-Yousuf Yesil  
-**Datum:** Juni 2025
+**Autoren:** M.-Yousuf Yesil, Lukas Lang-Lajendäcker  
+**Datum:** Juli 2025
 
-> **Abstract:**  
-> In folgender Belegarbeit werden die Schritte für eine Datenvisualisierung der Wetterdaten von 1991 – 2024 dargestellt. Insbesondere der Vergleich zwischen den einzelnen Bundesländern, sowie die Untersuchung, ob es ein Nord-Süd-Gefälle gibt, wird in dieser Arbeit hervorgehoben.
+> **Zusammenfassung:**  
+> In folgender Belegarbeit werden die Schritte für eine Datenvisualisierung der Wetterdaten von 1991 – 2024 dargestellt. Insbesondere der Vergleich zwischen den einzelnen Bundesländern, sowie die Untersuchung ob es ein Nord-Süd Gefälle gibt, wird in dieser Arbeit hervorgehoben. Für den Vergleich werden die Lufttemperatur, der Niederschlag sowie die Länge der Sonnenstunden verwendet.
 
 ---
+
 
 ## 1. Vorverarbeitung
 
-Die Daten werden direkt vom Deutschen Wetterdienst (DWD) bereitgestellt und enthalten u. a. Messdaten für die Lufttemperatur, Feuchtigkeit und Niederschlag für die meisten Bundesländer sowie den Bundesdurchschnitt. Die Rohdaten liegen als Textdatei vor und wurden nach Entfernen der Beschreibung und Ändern des Dateityps in ein gültiges CSV-Format überführt. Für die weitere Verarbeitung wird das doppelte Spaltenattribut **„year"** entfernt, da diese Spalte keine zusätzlichen Informationen liefert und ein doppelter Spaltenname zu Konflikten führen kann.
+Die Daten werden direkt vom Deutschen Wetterdienst (DWD) [1] bereitgestellt und erhalten u.a. Messdaten für die Lufttemperatur, Feuchtigkeit und Niederschlag für die meisten Bundesländer sowie den Bundesdurchschnitt. Die Daten sind als Textdatei hinterlegt und nach entfernen der Beschreibung und ändern des Dateityps auch in einem validen CSV. Für die weitere Verarbeitung wird hierbei weiterhin das doppelte Spaltenattribut "year" entfernt, da die zugehörigen Daten keine Informationen liefern und ein doppelter Spaltenname zu Konflikten führen kann.
 
-Da einige Bundesländer in den Rohdaten zusammengefasst sind, werden folgende Spalten neu interpretiert:
-
-- Aus der Spalte **Berlin/Brandenburg** wird die Spalte **Berlin**, wobei die Werte für Brandenburg aus der separaten Brandenburg-Spalte hergenommen werden.
-- Die gleiche Methode wird auf **Niedersachsen/Hamburg/Bremen** angewandt, um die Daten für **Bremen** zu extrahieren.
-
-Da für Hamburg selbst keine Messungen existieren, wird zur Berechnung der Wetterwerte folgende Formel angewendet:
+Da einige Bundesländer zusammengefasst sind, werden folgende Spalten neu interpretiert. So wird aus der Spalte Berlin/Brandenburg die Spalte Berlin, wobei die Werte für Brandenburg aus der eigenen Spalte hergenommen werden. Die gleiche Methode wird auf Niedersachsen/Hamburg/Bremen für die Stadt Bremen angewandt. Da für Hamburg selbst keine Messungen existieren, wird zur Berechnung der Wetterwerte folgende Formel angewendet:
 
 $$
-W_{\mathrm{Hamburg}} \=\ \frac{W_{\mathrm{Niedersachsen}} \+\ W_{\mathrm{Schleswig\text{-}Holstein}}}{2}
+W_{\mathrm{Hamburg}} = \frac{W_{\mathrm{Niedersachsen}} + W_{\mathrm{Schleswig\text{-}Holstein}}}{2}
 $$
 
-Hierbei sollte allerdings bedacht werden, dass eine hohe Urbanisierung unter anderem Einflüsse auf die Lufttemperatur haben kann. Diese Faktoren können hier jedoch nicht berücksichtigt werden.
+Hierbei sollte allerdings bedacht werden, dass eine hohe Urbanisierung unter anderem Einflüsse auf die Lufttemperatur haben kann. Diese Faktoren können hier allerdings aufgrund fehlender Daten nicht mit einbezogen werden.
 
-Um die Daten geräteunabhängig zugänglich zu machen, werden sie gemeinsam mit dem restlichen Quellcode in ein öffentliches Git-Repository hochgeladen. Mit der Verwendung von **d3.js** werden die Daten dann als valide CSV-Datei von einem Skript geladen. Diese Methode der Zugänglichkeit bietet zwar den Vorteil, dass die Daten in der Entwicklung leichter zugänglich sind, allerdings wird dafür eine Internetverbindung vorausgesetzt. Wir haben uns dennoch dafür entschieden, da der Zugriff auf lokale Dateien mit JavaScript aus Sicherheitsgründen standardmäßig nicht möglich ist und dadurch der Zugang insgesamt verbessert wird. Als Alternative könnte man die Daten manuell hochladen oder sie als Array direkt in JavaScript einpflegen.
+Um die Daten netzwerkunabhängig verwenden zu können, werden die Daten im JavaScript eingebettet. Die Daten sind vorverarbeitet und enthalten die Attributwerte im Zeitraum von 1991 - 2024.
 
 ---
 
-## 2. Choroplethenkarte für Wetterentwicklungen
+## 2. Graphische Visualisierung
 
-Die Choroplethenkarte bietet die Möglichkeit, Unterschiede zwischen Bundesländern visuell durch verschiedene Farbwerte zu visualisieren. In dieser spezifischen Visualisierung besteht die Option, verschiedene Wetterdaten auf einer einzigen Karte darzustellen. Um diese Unterschiede auch visuell hervorzuheben, werden die verschiedenen Wetterdaten mit individuell zugewiesenen Farben repräsentiert. Die Farbzuordnung erfolgt nach folgendem Schema:
+### 2.1 Choroplethenkarte
+
+Die Choroplethenkarte bietet die Möglichkeit Unterschiede zwischen Bundesländer visuell durch verschiedene Farbwerte zu visualisieren. In dieser spezifischen Visualisierung besteht die Option verschiedene Wetterdaten auf eine einzige Choroplethenkarte darzustellen. Um diese Unterschiede auch visuell darzustellen, werden die verschiedenen Wetterdaten mit individuell zugewiesenen Farben repräsentiert. Die Farbzuordnung erfolgt nach folgendem Schema:
 
 - **Lufttemperatur → Rot**
 - **Sonnenstunden → Gelb**
 - **Niederschlag → Blau**
 
-Die gewählten Farben orientieren sich an gängigen visuellen Konventionen:  
-Rot steht für Wärme, Gelb für Sonne bzw. Helligkeit und Blau wird häufig mit Wasser bzw. Niederschlag assoziiert. Dadurch lassen sich die Wetterparameter intuitiv voneinander unterscheiden und visuell klar interpretieren.
+Die gewählten Farben orientieren sich an gängigen visuellen Konventionen: Rot steht für Wärme, Gelb für Sonne bzw. Helligkeit und Blau wird häufig mit Wasser bzw. Niederschlag assoziiert. Dadurch lassen sich die Wetterparameter intuitiv voneinander unterscheiden und visuell klar interpretieren.
+
+### 2.2 Liniendiagramm
+
+Um die Entwicklung der jährlichen Messungen zu zeigen, werden die ausgewählte Attributwerte seit 1991 in einem Liniendiagramm ausgegeben, um die bundesweite Entwicklung zu visualisieren.
 
 ---
 
-## 3. Wetterentwicklung in Deutschland seit 1991
+## 3. Untersuchung des Nord-Süd-Gefälles
 
-*(In diesem Abschnitt wird später beschrieben, wie sich die Temperaturen und Niederschläge in Deutschland insgesamt von 1991 bis 2024 entwickelt haben.)*
-
----
-
-## 4. Vergleich der Wetterentwicklung zwischen den Bundesländern seit 1991
-
-*(Hier wird dargestellt, wie sich die einzelnen Bundesländer hinsichtlich Temperatur und Niederschlag über die Jahre unterscheiden.)*
-
----
-
-## 5. Untersuchung des Nord-Süd-Gefälles
-
-Zur Untersuchung des Nord-Süd-Gefälles werden die jährlichen Durchschnittstemperaturen separat für nord- und süddeutsche Bundesländer berechnet. Dabei ergibt sich:
+Zur Untersuchung des Nord-Süd-Gefälles werden die jährlichen Durchschnittstemperaturen separat für nord- und süddeutsche Bundesländer berechnet. Dabei ergibt sich folgende Aufteilung:
 
 - **Norddeutschland:** Mittelwert aus den Bundesländern  
-  Mecklenburg-Vorpommern, Schleswig-Holstein, Hamburg, Brandenburg, Berlin, Sachsen-Anhalt, Bremen, Niedersachsen, Nordrhein-Westfalen.
+  Mecklenburg-Vorpommern, Schleswig-Holstein, Hamburg, Bremen, Niedersachsen
 - **Süddeutschland:** Mittelwert aus den Bundesländern  
-  Sachsen, Saarland, Rheinland-Pfalz, Hessen, Thüringen, Baden-Württemberg, Bayern.
+  Baden-Württemberg, Bayern
 
-So erhält man für jedes Jahr jeweils einen gemittelten Temperaturwert für Nord- und Süddeutschland. Diese Werte wurden dann als zusätzliche Attribute der Datenquelle hinzugefügt. Der Wert der Stadtstaaten wurde gegebenenfalls mit dem umliegenden Bundesland vereinigt, um keine doppelte Gewichtung zu verursachen.
+So erhält man pro Jahr jeweils einen gemittelten Temperaturwert für Nord- und Süddeutschland. Diese Werte wurden dann als zusätzliche Attribute der Datenquelle hinzugefügt.
 
 ### Temperaturentwicklung seit 1991
 
-![Temperaturentwicklung Nord-Süd](temp_noso.png)
-
-### Niederschlagsentwicklung seit 1991
-
-![Niederschlagsentwicklung Nord-Süd](sd_noso.png)
+*(Hier würde das entsprechende Diagramm eingefügt)*
 
 ---
 
-## 6. Dokumentation
+## 4. Dokumentation
 
 Im folgenden Abschnitt wird erläutert, wie diese Belegarbeit technisch aufgebaut ist. Detailliertere Informationen sowie die gesamte Codebasis lassen sich über das referenzierte GitHub Projekt einsehen.
 
-Um einen Zugriff auf die Wetterdaten zu ermöglichen, werden die Daten direkt in einen Array umgewandelt und in JavaScript eingebettet. Wir haben uns für diese Lösung entschieden, um eine unabhängige Nutzung der Anwendung ohne Internetverbindung und externe Abhängigkeiten zu ermöglichen. Dies verringert allerdings die Flexibilität und Wartbarkeit der Daten. Eine Alternative wäre, die Wetterdaten lokal anzupassen und als CSV-Datei über ein referenziertes Repository bereitzustellen. Dies würde jedoch eine funktionierende Internetverbindung sowie die Verfügbarkeit des Repositories voraussetzen, da die meisten Browser aus Sicherheitsgründen keinen direkten lokalen Dateizugriff erlauben. Für diesen Schritt haben wir ein Python-Skript verwendet.
+Um aus unseren Daten eine interaktive Darstellung zu generieren, haben wir uns entschieden, die auf d3-basierende Plotly-Bibliothek zu verwenden. Wir haben uns für Plotly aufgrund der vielen Anpassungsmöglichkeiten sowie der einfachen Integrierbarkeit entschieden. Um einen Zugriff auf die Wetterdaten zu ermöglichen, werden die Daten in ein Array umgewandelt und in JavaScript eingebettet. Wir haben uns für diese Lösung entschieden, um eine unabhängige Nutzung der Anwendung ohne Internetverbindung und externe Abhängigkeiten zu ermöglichen. Dies verringert allerdings die Flexibilität und Wartbarkeit der Daten. Eine Alternative wäre, die Wetterdaten direkt aus vom DWD oder aus dem referenzierten Repository zu laden. Dies würde jedoch eine funktionierende Internetverbindung sowie die Verfügbarkeit des Repository voraussetzen, da die meisten Browser aus Sicherheitsgründen keinen direkten lokalen Dateizugriff erlauben.
 
-### Projektstruktur
+### 4.1 Projektstruktur
 
 ```
 WeatherVis/
 ├── index.html
 ├── style.css
 ├── js/
-│   ├── load_data.js
-│   ├── all_states.js
-│   ├── scatter.js
-│   └── plot.js
-├── data/
-│   ├── temperature_state.json
-│   ├── sunshine_state.json
-│   └── precipitation_state.json
-├── assets/
-│   ├── images/
-│   └── icons/
+│   ├── plot.js
+│   └── data.js
 └── README.md
 ```
+
+### 4.2 Technische Umsetzung
+
+Die Choroplethenkarte und das Liniendiagramm beziehen ihre Daten aus der Datei `data.js`, welche sowohl die Wetterdaten im Zeitraum von 1991 bis 2024 bereitstellt als auch die geoJSON-Werte, welche für die Erzeugung der Karte obligatorisch sind und aus einem öffentlich zugänglichen und unlizenzierten GitHub-Archiv stammen [2]. Die Daten sind in Form der Konstanten `TEMP_DATA`, `RAIN_10MM`, `SUNSHINE` und `GEO_JSON` als Arrays gespeichert und enthalten die Attributwerte der Bundesländer, des Bundesschnitts und den Durchschnittswerten der nördlichen und südlichen Bundesländer im Zeitraum von 1991 - 2024.
+
+Diese Daten werden über die `index.html` an für die `plot.js` übergeben und direkt zugänglich gemacht.
+
+---
+
+## 5. Referenzen
+
+**Literatur**
+
+[1] Deutscher Wetterdienst, "Climate data center portal," 2024. Accessed: Jun. 29, 2025.
+
+[2] F. Schwarz, "deutschlandgeojson," 2024. Zugriff: 07.06.2025.
