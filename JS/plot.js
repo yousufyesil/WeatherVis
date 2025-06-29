@@ -1,6 +1,7 @@
-//Konfiguration und Daten für die interaktive Karte und Diagramme
+//Konfiguration und Daten für die interaktive Karte
 
 const CONFIG = {
+    // Token um die Mapbox zu nutzen
     mapboxToken: "pk.eyJ1IjoibG9uZ2xvbmciLCJhIjoiY2p2cTJqOHp4MDJtdzQ0cDd2d3g4bmE0ZCJ9.Nc3MEjTImTuuj3DDoSpmBA",
     mapCenter: { lon: 10.45, lat: 51.1657 },
     mapZoom: 5.5,
@@ -21,18 +22,29 @@ const CONFIG = {
         "DE-ST", "DE-SN", "DE-SH", "DE-TH"
     ],
 
+    // Wetterdaten für die Karte
     dataSources: {
+
+        // temperature, rain und sunshine sind die drei Wetterdatenquellen
         temperature: {
             data: TEMP_DATA,
             title: "Temperatur in Deutschland",
             colorscale: "Reds",
             unit: "Temperatur (°C)",
+            // Dichte der Skala
             dtick: 0.5,
             scatterConfig: {
                 yAxisTitle: 'Temperatur (°C)',
                 regions: ['Deutschland', 'Süd_mean', 'Nord_mean'],
+                // X-Achse: Jahr, d ist die erste Zeile des Arrays
                 getX: d => d[0],
-                getY: (d, region) => d[{ 'Deutschland': 17, 'Süd_mean': 18, 'Nord_mean': 19 }[region]]
+                // Y-Achse: Temperatur für die jeweiligen Regionen.
+                getY: (d, region) => d[
+                    { 'Deutschland': 17,
+                        'Süd_mean': 18,
+                        'Nord_mean': 19 }
+                        [region]]
+
             }
         },
         rain: {
@@ -40,6 +52,7 @@ const CONFIG = {
             title: "Niederschlag in Deutschland",
             colorscale: "Blues",
             unit: "Niederschlag (mm/10)",
+            // reverseScale: true, da ansonsten die Skala von dunkel nach hell geht
             reverseScale: true,
             dtick: 3,
             scatterConfig: {
@@ -60,19 +73,26 @@ const CONFIG = {
                 yAxisTitle: 'Sonnenscheindauer (Stunden)',
                 regions: ['Deutschland', 'Süd_mean', 'Nord_mean'],
                 getX: d => d[0],
-                getY: (d, region) => d[{ 'Deutschland': 17, 'Süd_mean': 19, 'Nord_mean': 18 }[region]]
+                getY: (d, region) => d[{ 'Deutschland': 17, 'Süd_mean': 18, 'Nord_mean': 19 }[region]]
             }
         }
     },
+
+    // Individuelle Farben für den Hintergrund
     colors: { font: '#fffafa', background: 'rgba(18, 18, 18, 0.9)', border: '#333', outline: '#444' }
 };
 
+
+// Zustand für die aktuelle Quelle, das aktuelle Jahr und die Jahre
 const state = {
     currentSource: 'temperature',
     currentYearIndex: 0,
     years: TEMP_DATA.map(row => row[0])
 };
 
+
+// Funktion um die minimalen und maximalen Werte für die Datenquellen zu berechnen, um die Skala der Karte konstant
+// zu halten
 function calculateMinMax(data) {
     let min = Infinity, max = -Infinity;
     data.forEach(row => {
@@ -143,8 +163,11 @@ function updateScatterPlot() {
 
     const layout = {
         title: `${source.title} - Zeitverlauf (ab 1991)`,
+
+        // Indivuelle Farbe für den Hintergrund um die gleiche Hintergrundfarbe wie die restliche Seite zu haben
         paper_bgcolor: CONFIG.colors.background,
         plot_bgcolor: CONFIG.colors.background,
+
         xaxis: {
             title: 'Jahr',
             fixedrange: true,
@@ -162,6 +185,7 @@ function updateScatterPlot() {
     const el = document.getElementById('scatter-plot');
     el?.data ? Plotly.react('scatter-plot', traces, layout) : Plotly.newPlot('scatter-plot', traces, layout, { displayModeBar: false });
 }
+
 
 function updateMap() {
     const source = CONFIG.dataSources[state.currentSource];
@@ -209,7 +233,7 @@ function initializeApp() {
     initializeDataRanges();
 
     // Verwende die lokale geojson Konstante
-    const geoData = GEO_JSON;  // Nutze deine lokale geojson Variable
+    const geoData = GEO_JSON;
     const initSrc = CONFIG.dataSources.temperature;
 
     const yearData = [];
@@ -248,16 +272,26 @@ function initializeApp() {
         title: { text: `<b>${initSrc.title} - Jahr: ${state.years[0]}</b>`, font: { color: CONFIG.colors.font, size: 24 } },
         dragmode: false,
         plot_bgcolor: "black",
+
         paper_bgcolor: CONFIG.colors.background,
+
+        // Erzeugnung des Sliders um zwischen den Jahren zu wechseln
         sliders: [{
+            // Positionierung des Sliders
             y: 0.1,
+
             pad: { t: 30 },
+
             currentvalue: { xanchor: 'right', prefix: 'Jahr: ', font: { color: CONFIG.colors.font, size: 20 } },
             steps: state.years.map(y => ({ label: y.toString(), method: 'skip', args: [] }))
         }],
+
+        // Erzeugung der Buttons um zwischen den Attributen zu wechseln
         updatemenus: [{
             type: 'buttons',
             direction: 'right',
+
+            // Positionierung der Bittons
             x: 0.5,
             y: -0.05,
             pad: { l: 10, r: 10, t: 5, b: 5 },
