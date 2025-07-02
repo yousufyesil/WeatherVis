@@ -1,5 +1,4 @@
 //Konfiguration und Daten für die interaktive Karte und Diagramme
-
 const CONFIG = {
     mapboxToken: "pk.eyJ1IjoibG9uZ2xvbmciLCJhIjoiY2p2cTJqOHp4MDJtdzQ0cDd2d3g4bmE0ZCJ9.Nc3MEjTImTuuj3DDoSpmBA",
     mapCenter: { lon: 10.45, lat: 51.1657 },
@@ -194,9 +193,13 @@ function updateMap() {
         {
             'title.text': `<b>${source.title} - Jahr: ${state.years[state.currentYearIndex]}</b>`,
             'margin.r': source === CONFIG.dataSources.rain ? 40 : 10
-        },
-        [0]
-    );
+        }
+    ).then(() => {
+        const m = map?._fullLayout?.mapbox?._subplot?.map;
+        if (m) {
+            m['dragPan'].disable();
+        }
+    });
 }
 
 function updateBoth() {
@@ -209,7 +212,7 @@ function initializeApp() {
     initializeDataRanges();
 
     // Verwende die lokale geojson Konstante
-    const geoData = GEO_JSON;  // Nutze deine lokale geojson Variable
+    const geoData = GEO_JSON;
     const initSrc = CONFIG.dataSources.temperature;
 
     const yearData = [];
@@ -286,7 +289,7 @@ function initializeApp() {
     setTimeout(() => {
         const m = map?._fullLayout?.mapbox?._subplot?.map;
         if (m) {
-            ['dragPan', 'scrollZoom', 'boxZoom', 'dragRotate', 'doubleClickZoom', 'touchZoomRotate'].forEach(i => m[i].disable());
+            m['dragPan'].disable();
         }
     }, 300);
 
