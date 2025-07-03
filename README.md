@@ -88,7 +88,6 @@ Diese Daten werden über die `index.html` an für die `plot.js` übergeben und d
 
 ## 5. Referenzen
 
-**Literatur**
 
 [1] Deutscher Wetterdienst, "Climate data center portal," 2024. Accessed: Jun. 29, 2025.
 
